@@ -1,0 +1,513 @@
+---
+title: "introduction à la gestion des données en sciences exactes"
+subtitle: Collège Doctoral de Bretagne
+date: 07/11/2023
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        theme: [dark, file.css]
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+bibliography: references.bib
+csl: apa.csl
+---
+
+# {background-color="#fef1da"}
+
+:::: {.columns}
+::: {.column width="70%" .incremental}
+
+- conseils sur la gestion des données
+- formations (données, reproductibilité, identifiants)
+- accompagnement sur les plans de gestion de données
+- curation de la collection Univ-Rennes sur Recherche Data Gouv
+:::
+
+:::{.notes}
+expliquer ce qu'est un atelier de la donnée au niveau national
+Atelier de la donnée ARDOISE = Université de Rennes 2 et Université de Rennes
+:::
+
+::: {.column width="30%"}
+
+![](images/ardoise.png)
+:::
+::::
+
+
+
+# {background-color="#fef1da"}
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[1. données de recherche, de quoi parle t-on ?]{.title}
+
+:::
+::: {.column width="50%"}
+
+![données brutes, données raffinées](images/data_narrative.jpg){width="80%" #fig-data_narrative}
+
+:::
+::::
+
+## quels fichiers sont importants à mettre à disposition ?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- raw_data_fish_counter.csv
+- intermediate_data.xls
+- filter1.py
+- first_draft_submission.pdf
+- fish_counter_calibration.md
+- kick_off_report.docx
+- filter2.py
+- notebook_experiment.ipynb
+
+:::
+::: {.column widt="50%"}  
+
+- final_data_fish_counter.xls
+- project_presentation_funders.pptx
+- final_data.csv
+- study_draft.qmd
+- january_meeting_partners.docx
+- fish_counter_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
+
+:::{.notes}
+
+Les données de recherche sont des données qui ont une valeur démonstrative et sur lesquelles s'appuient les publications. 
+Les *inscriptions* (Bruno Latour) qui sont produites dans la vie du projet ou du labo (compte rendu de réunion, mode d'emploi d'un matériel, agenda du projet ne sont pas des données de recherche. Leur conservation peut avoir un intérêt dans certains cas, mais pas dans le cadre d'un plan de gestion de données)
+
+:::
+
+## Réponses
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- [raw_data_fish_counter.csv]{.green}
+- [intermediate_data.xls]{.orange}
+- [filter1.py]{.green}
+- first_draft_submission.pdf
+- [fish_counter_calibration.md]{.green}
+- kick_off_report.docx
+- [filter2.py]{.green}
+- [notebook_experiment.ipynb]{.orange}
+
+:::
+::: {.column widt="50%"}  
+
+- final_data_fish_counter.xls
+- project_presentation_funders.pptx
+- [final_data.csv]{.green}
+- [study_draft.qmd]{.orange}
+- january_meeting_partners.docx
+- fish_counter_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
+
+# {background-color="#fef1da"}
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="40%" style='display: flex; justify-content: center; align-items: center;'}
+
+[2. pour une science cumulative, fiable et reproductible?]{.title}
+
+:::
+::: {.column width="60%"}
+
+![données figées, données liées](images/data_steps.png){#fig-data_steps}
+
+:::
+::::
+
+::: {.notes}
+Rappeler aux doctorants, le non-sens qu'il y a à "geler" ses données dans le support en PDF de leur thèse. 
+Lors du dépôt de la publication dans HAL, les bibliothécaires de l'Université de Rennes essaient de récupérer auprès des auteurs les données en format réutilisable, quand elles ne se trouvent que dans le PDF de l'article.
+
+La Science Ouverte repose sur des formats libres (transparence, format accessible à tous). Un document CSV vaux mieux qu'un fichier Excel (voir plus loin)
+
+L'étape suivante consiste à utiliser des URI (par exemple des éléments Wikidata) dans ses tableaux de données pour relier ces données à d'autres données du même genre (RDF)
+
+Enfin on peut utiliser des outils comme Lodex pour transformer ses données en site web dynamique permettant de visualiser ses données de plusieurs manières et d'agréger son jeu de données à d'autres jeux de données
+
+:::
+
+## Pourquoi conserver ces données ? 
+
+## {background-iframe="https://video.univ-rennes1.fr/permalink/v125f6acecf2bu72r140/iframe/"}
+
+<!--
+au cas où la vidéo ne serait plus disponible sur le serveur, décommenter les lignes ci-dessous:
+
+{background-video="reproductibilite.mp4"}
+-->
+
+::: {.notes}
+
+jouer la vidéo de façon synchronisée avec une classe
+- télécharger la vidéo depuis le mediaserver et l'enregistrer sur le bureau  
+- l'ouvrir sans la jouer  
+- partager l'écran depuis Zoom, choisir le lecteur de vidéo  
+- cocher les deux cases en bas de la fenêtre de partage (audio pour tous + optimisation)  
+- jouer la vidéo puis cesser le partage quand elle est finie  
+
+:::
+
+
+## pérennité de l'accès aux données
+
+![lutter contre la perte des données](images/perte_donnees.png){#fig-perte}
+
+@gibneyScientistsLosingData2013a
+
+# {background-color="#fef1da"} 
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
+
+[3. Un enjeu de Science Ouverte]{.title}
+:::
+::: {.column width="50%"}
+
+![](images/Open_Science_Logo.png)
+:::
+::::
+
+## principes FAIR
+
+![principes FAIR](images/FAIR2.png){#fig-fair}
+
+## ouverture / fermeture 
+
+:::{.incremental}
+
+- "aussi ouvert que possible, aussi fermé que nécessaire"
+
+- Ouverture par défaut
+
+- fermeture à justifier : 
+
+    - données personnelles
+    - propriété intellectuelle
+:::
+
+::: {.notes}
+
+# données personnelles
+
+L'enjeu reste de donner accès dans la plus large mesure possible au jeu de données. Pour cela, on aura recours à des procédés visant à pseudonymiser ou anonymiser le jeu de données. La pseudonymisation consiste à supprimer les données directement identifiantes, ou à les remplacer par des pseudonymes. Cette méthode comporte des risques de réidentification par croisement du jeu de données avec d'autres jeux portant sur la même population. 
+L'anonymisation des données est une méthode plus subtile consistant, après suppression des données directement identifiantes, à rendre les données moins précises ou à y ajouter du bruit pour entraver les tentatives éventuelles de réidentification. Il s'agit d'un compromis à trouver entre l'intérêt des personnes dont les données sont collectées et la finesse de ces données. Des outils existent pour anonymiser les données : Arx, Amnesia. 
+L'anonymisation des données entraîne des coûts de traitement (temps humain, prestatation) qu'il convient de prévoir en amont dans la demande de budget. 
+
+# propriété intellectuelle
+
+En France, le régime du droit de la donnée fait que celles-ci par défaut sont la propriété des employeurs, et non celle des producteurs (chercheurs).
+Mais il peut y avoir des limites au partage de ces données : 
+- licences contaminantes de certains matériels propriétaires utilisées pour produire des données (par exemple imagerie médicale)
+- projets de recherche internationaux : quel droit national on va appliquer sur ces données ?
+
+:::
+
+## rendre ses données trouvables
+
+Qualité d'un répertoire : 
+
+::: {.incremental}
+
+- renommée
+- pérennité (institution support)
+- licence ouverte
+- identifiant pérenne
+- richesse des métadonnées
+- curation
+
+:::
+
+::: {.notes}
+
+Zenodo : pas de versionnage des jeux de données, métadonnées moins riches que sur RDG, mais entrepôt pérenne (European Commission)
+
+pour chercher des entrepôts et comparer leurs offres : https://re3data.org
+
+Eviter les entrepôts propriétaires (Figshare)
+
+critères de conformité des entrepôts : https://www.ouvrirlascience.fr/entrepots-de-donnees-de-confiance-criteres-de-conformite/
+
+:::
+
+## {.smaller}
+
+
+
+| discipline | entrepôt |
+|:---|:---|
+| images (SHS) | [MediHal]( https://medihal.archives-ouvertes.fr/) |
+| code | Software Heritage via [HAL](https://hal.archives-ouvertes.fr) |
+| BioInformatique | [GenOuest](https://www.genouest.org/) |
+| Sciences Humaines | [Nakala](https://nakala.fr) |
+| Mathématiques | pas d'entrepôt, voir avec le [groupe RNBM](https://www.rnbm.org/category/le-reseau/groupes-de-travail/donnees-maths/) | |
+| environnement, hydrologie | [Osuris](https://accueil.osuris.fr/) |
+| Sciences de la terre | [data terra](https://www.data-terra.org/) |
+| Sciences de la mer |[data ifremer](https://data.ifremer.fr/), [seanoe](https://www.seanoe.org/) |
+| sciences médicales | [entrepôt INSERM sur RDG](https://entrepot.recherche.data.gouv.fr/dataverse/inserm) |
+| Ecologie, environnement et société | [Data.InDoRES et Cat.InDoRES](http://bbees.mnhn.fr/fr/dataindores-27)  |
+
+: {.striped}
+
+## Recherche Data Gouv
+
+- richesse des métadonnées
+- curation
+- référence nationale  (soutenu par le Ministère)
+- identifiant pérenne
+- volumétrie importante
+- gratuité
+- génération simplifiée de datapapers
+- [bac à sable de RDG](https://demo.recherche.data.gouv.fr/dataverse/tp)
+
+:::{.notes}
+Sur Zenodo, on est limité à 50 gigaoctets par dataset
+sur RDG, on est limité à 50 gigaoctets par fichier, un dataset peut comporter plusieurs fichiers (pas vu de limitation globale), donc oui, apparemment la volumétrie est moins limitée sur RDG que sur Zenodo.
+:::
+
+## données accessibles ?
+
+:::: {.columns}
+::: {.column width="50%"}
+Dans 93% des cas pas de réponse ou réponse négative sans justification @gabelicaManyResearchersWere2022a
+
+:::
+::: {.column width="50%"}
+
+!["data available upon request"](images/data_available_request.jpg){#fig-data_available}
+:::
+::::
+
+::: {.notes}
+
+La personne inscrite dans le PGD comme personne contact pour les données peut être le corresponding author de la publication liée ou bien une autre personne, mais cette personne doit avoir conscience de son rôle si sa médiation est nécessaire pour obtenir les données. 
+Mieux vaut renseigner ici une adresse personnelle (type gmail) qu'une adresse institutionnelle, car on peut changer fréquemment d'institution.  
+:::
+
+## données interopérables ? 
+
+| registre | identifiant |
+|:--|:--|
+| [CAS number]{.red} | 12019-52-2 |
+| [PubChem CID number]{.green} | 6914517 |
+| [PubChem SID number]{.green} | 24879035   |
+| [openSMILES identifier]{.green} | \[Cu\].\[Cu\].\[Te\] |
+|[InChI identifier]{.green} | InChI=1/2Cu.Te |
+|[MDL number]{.red} | MFCD00049727 | 
+
+: Quels identifiants utiliser pour le cuivre telluride ?
+
+::: {.notes}
+Dans les entrepôts on va plutôt utiliser inchi que CAS car pour accéder aux identifiants CAS il faut disposer de la base de données CAS Sci-Finder
+
+PubchemID est considérée comme un meilleur choix qu'InCHi, car plus *machine-redeable*
+
+:::
+
+## formats transparents ?
+
+![CSV vs XLS](images/error_excel.jpg){#fig-excel}
+
+@ziemannFivePillarsComputational2023a
+
+::: {.notes}
+Utiliser Excel pour analyser des données (comme le font 69% des chercheurs d'après une étude de 2016) est une mauvaise idée. Utiliser plutôt des outils transparents comme R. Une étude de 2021 montre qu'Excel change régulièrement des gènes en dates, et le phénomène est connu de longue date. La #reproductibilité des études passe par le maniement d'outils libres et transparents sur ce qu'ils font. Reférences ici : https://doi.org/10.1093/bib/bbad375
+:::
+
+## documenter les données {.incremental}
+
+> Documentation is the glue that binds a data science project together (@ziemannFivePillarsComputational2023a)
+
+- Décrire avec soin les données et le contexte de leur acquisition (production, collection)
+- *literate programming*
+- décrire les données en utilisant des ontologies
+
+## documenter pour éviter les erreurs de contexte
+
+:::: {.columns}
+::: {.column width="50%"}
+
+être précis dans la description du contexte de la production des données
+:::
+::: {.column widt="50%"}
+![l'importance du contexte](images/data_context.png){#fig-data_context width="80%"}
+:::
+
+::::
+
+::: {.notes}
+possibilité de lier le plan de gestion des données à un protocole déposé sur un autre site (par exemple https://www.protocols.io) ou Prospero https://www.crd.york.ac.uk/prospero/ si les données sont bibliographiques et qu'il s'agit d'une revue de littérature
+
+:::
+
+## ontologies
+
+[regroupement de thesaurus](https://skosmos.loterre.fr/fr/)
+
+| discipline | thesaurus |
+|:-- |:--|
+| biodiversité | [INRAE](https://thesaurus.inrae.fr)|
+| environnement | [GEMET](https://www.eionet.europa.eu/gemet/fr/themes/) |
+| Biologie, Santé | [MeSH](https://www.ncbi.nlm.nih.gov/mesh) |
+| Santé mentale | [ascodopsy](https://santepsy.ascodocpsy.org/index.php?lvl=cmspage&pageid=6&id_rubrique=125) |
+| 
+
+[Le thésaurus Loterre (multidisciplinaire)](https://skosmos.loterre.fr)
+
+
+
+## données réutilisables ?
+
+::: {style='font-size: 30px'}
+- [Creative Commons](https://fr.wikipedia.org/wiki/Licence_Creative_Commons) (CC:by)
+- une licence écrite par un cabinet d'avocat expert en propriété intellectuelle et qui prévoit une multiplicité de cas d'usages autorisés ou prohibés
+- [ODBL](https://opendatafrance.gitbook.io/odl-ressources/fiches-pratiques/aspects-juridiques/foire-aux-questions-sur-la-licence-odbl)
+- [Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/)
+- pas de licence, on fait ce qu'on veut avec mon jeu de données
+- [CC0](https://fr.wikipedia.org/wiki/Licence_CC0)
+- CC:by pour tous le monde sauf pour les industries fossiles, les vendeurs d'armes et Google (@thomasSeReapproprierProduction2023b) texte disponible [ici](se_reapproprier_resultats_connaissance.htm).
+:::
+
+::: {.notes}
+
+**Demander aux élèves quelles sont les données mentionnées dans cette slide qui sont appropriées pour un jeu de données.**
+
+Réponses :
+
+Les licences Etalab et ODBL sont recommandées en France pour permettre la réutilisation des données. 
+Les Creative Commons sont plutôt appropriées aux résultats de la recherche (publications, preprints, posters...)
+la licence CC0 n'est pas autorisée en France où le droit d'auteur commande au minimum de citer l'auteur du jeu de données, ce que ne prévoit pas cette licence. 
+
+Lorsqu'aucune licence n'est indiquée, on ne peut pas réutiliser de manière sûre le jeu de données. Quand il n'y a pas de licence, par défaut, c'est le droit d'auteur qui s'applique. 
+
+Dans le cadre de la Science Ouverte, les licences sont standardisées et les usages qu'elles permettent sont facilement énonçables et compréhensibles. Si en guise de licence on a un texte qui ressemble aux CGU d'un service web, c'est que le jeu de données risque d'être difficile à réutiliser (nécessité probablement de contacter les producteurs)
+
+La Science Ouverte peut être vue par certaines chercheurs comme une perte de contrôle sur leurs publications et données et les licences restrictives qui entravent la réutilisation à des fins jugées mauvaises par les chercheurs est encore à l'état de projet. Ces licences ne sont pas usuelles pour les données.
+
+:::
+
+## Le plan de gestion de données
+
+:::: {.columns}
+::: {.column width="50%" .incremental}
+
+- Le PGD résume tous les choix faits pour la gestion des données
+
+- Déposer une première version d'un PGD 6 mois après la signature d'un contrat (ANR, Projets européens)
+
+- [DMP OPIDOR](https://dmp.opidor.fr/)
+
+:::
+::: {.column width="50%"}
+![](images/PNSO.png)
+:::
+::::
+
+
+# {background-color="#fef1da"} 
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
+
+[4. Place à la pratique]{.title}
+:::
+::: {.column width="50%"}
+
+![Silurus Glanis](images/Silurus_glanis.jpg){#fig-silurus}
+:::
+::::
+
+## données fictives (ChatGPT)
+
+```{r}
+data.silures <- read.csv(file="silurus.csv")
+print(data.silures)
+
+```
+::: {.notes}
+jeu de données inspiré de 
+Gouvernement du Royaume Uni. (2023). River Tyne Fish Count [jeu de données]. https://www.gov.uk/government/statistical-data-sets/river-tyne-fish-counts
+
+Le jeu de données ne comporte pas d'informations sur certains signes (*) ou (#). Ces signes sont explicitées dans le mail. On insiste ici sur la nécessité de documenter correctement le jeu de données pour qu'il ne manque rien à sa compréhension.
+
+:::
+
+
+## {background-iframe="champs_rdg.html"}
+
+##
+
+::: {.justify}
+```{r}
+cat(paste0(readLines("mail.md"), collapse="\n"))
+```
+::: {.notes}
+
+Le mail comporte des informations sur le contexte et les limites de la collecte des données. Ces informations aident à remplir les champs concernant le jeu de données.
+
+:::
+
+
+:::
+
+## figures {.smaller}
+
+|figure | source et crédits |
+|:-- |:-- |
+| @fig-data_narrative | [Maricx](https://www.reddit.com/r/ProgrammerHumor/comments/pf247h/who_doesnt_like_a_good_story/)  |
+| @fig-data_steps | [Tim Berners-Lee](https://5stardata.info/en/)|
+| @fig-perte | [Gibney, Van Noorden](https://www.nature.com/articles/nature.2013.14416) |
+| @fig-fair | [Willkinson, Dumontier et al.](https://www.nature.com/articles/sdata201618) |
+| @fig-data_available | [Sergio Uribe](https://www.linkedin.com/pulse/dental-research-generates-data-available-sergio-uribe) |
+| @fig-excel | meme dont l'origine se perd dans la nuit des temps |
+| @fig-data_context | [Ralph Aboujaoude Diaz](https://www.linkedin.com/posts/ralph-aboujaoude-diaz-40838313_technology-artificialintelligence-computervision-activity-6912446088364875776-h-Iq?utm_source=linkedin_share&utm_medium=member_desktop_web)|
+| @fig-silurus | [Dieter Florian](https://commons.wikimedia.org/wiki/Category:Silurus_glanis#/media/File:Silurus_glanis_02.jpg) |
+
+
+
+## logiciels utilisés pour la présentation
+
+Toute la présentation a été conçue avec du **logiciel libre** (merci Richard M. Stallman), et notamment les logiciels suivants :
+
+- Quarto 1.3.450
+- VScode 1.8.0
+- R :
+
+```{r}
+sessioninfo::session_info()
+```
+
+::: {.note}
+
+l'éditeur de texte est VScode. VScode rend l'utilisation de Quarto plus facile (Quarto est un logiciel dépourvu d'interface graphique, de même que Pandoc qui est intégré à Quarto).
+VScode permet d'encapsuler également des chuncks de R (si R est chargé sur la machine avec les packages correspondants)
+
+Le package sessioninfo de R permet de montrer comment on peut documenter automatiquement le code utilisé pour produire une figure à partir d'un jeu de données par exemple. La reproductibilité du code est un enjeu essentiel et connexe à l'accès aux données. 
+
+:::
+
+# Références {background-color="#fef1da"}
