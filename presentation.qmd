@@ -71,9 +71,9 @@ Researchers depend on these publishing compagnies for the quality assessment of 
 Elsevier, Springer, Mac Millan, Wiley, American Chemical abstracts are basically predators in the publishing market, but what we call usually predatory open access publishers are not those big companies, but smaller and newer companies who pretend to provide a consistent peer reviewing process but do nothing than take money from the authors.they are truly impostors, but they are called predators.  
 :::
 
-## journal hijacking
+## {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
 
-![](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html){height=257px width=1263px}
+
 
 ## figures {.smaller}
 
