@@ -1,7 +1,7 @@
 ---
 title: "How to avoid predatory open access publishers"
 subtitle: "Adopting a safe publication strategy"
-date: 07/11/2023
+date: 12/04/2024
 author: 
     - name: Damien Belvèze
       email: damien.belveze@univ-rennes.fr
@@ -26,82 +26,109 @@ bibliography: references.bib
 csl: nature.csl
 ---
 
-# {background-color="#fef1da"}
+#  {background-color="#fef1da"}
 
-:::: {.columns}
-::: {.column width="70%" .incremental}
-
-- Data management support for researchers
-- training sessions (data management, identifiers, reproducibility)
-- Data management plans
-- Data curation on 'Recherche Data Gouv' repository
+::: columns
+::: {.column .incremental width="70%"}
+-   Data management support for researchers
+-   training sessions (data management, identifiers, reproducibility)
+-   Data management plans
+-   Data curation on 'Recherche Data Gouv' repository
 :::
 
-:::{.notes}
-expliquer ce qu'est un atelier de la donnée au niveau national
-Atelier de la donnée ARDOISE = Université de Rennes 2 et Université de Rennes
+::: notes
+expliquer ce qu'est un atelier de la donnée au niveau national Atelier de la donnée ARDOISE = Université de Rennes 2 et Université de Rennes
 :::
 
 ::: {.column width="30%"}
-
 ![](images/ardoise.png)
 :::
-::::
+:::
 
+#  {background-color="#fef1da"}
 
-
-# {background-color="#fef1da"}
-:::: {.columns style='display: flex !important; height: 90%;'}
-::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
-
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
 [1. predators and imposters]{.title}
-
 :::
+
 ::: {.column width="50%"}
-
-![38% profit margin](images/elsevier.png){width="100%" #fig-elsevier_profit}
-
+![38% profit margin](images/elsevier.png){#fig-elsevier_profit width="100%"}
 :::
-::::
-
-:::{.notes}
-Elsevier has built up a war chest with $1.17 billion in net revenues, representing a 38% increase in sales.
-Researchers depend on these publishing compagnies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which thoes compagnies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries (> hybrid journals)
-
-Elsevier, Springer, Mac Millan, Wiley, American Chemical abstracts are basically predators in the publishing market, but what we call usually predatory open access publishers are not those big companies, but smaller and newer companies who pretend to provide a consistent peer reviewing process but do nothing than take money from the authors.they are truly impostors, but they are called predators.  
 :::
 
-## {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
+::: {.notes}
+Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales. Researchers depend on these publishing compagnies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which thoes compagnies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries (\> hybrid journals)
+
+Elsevier, Springer, Mac Millan, Wiley, American Chemical abstracts are basically predators in the publishing market, but what we call usually predatory open access publishers are not those big companies, but smaller and newer companies who pretend to provide a consistent peer reviewing process but do nothing than take money from the authors.they are truly impostors, but they are called predators.
+:::
+
+# a light definition {background-color="#fef1da"}
+
+:::{.blockquote}
+Predatory journals and publishers are entities that prioritize self-interest at the expense of scholarship and are characterized by false or misleading information, deviation from best editorial and publication practices, a lack of transparency, and/or the use of aggressive and indiscriminate solicitation practices
+:::
+
+@grudniewiczPredatoryJournalsNo2019
+
+# {background-color="#fef1da"} 
+
+## a perversion of the Gold Road open Access {background-color="#fef1da"}
+
+![green_gold](images/green_gold.png){#fig-green_gold width="70%"}
+:::{.bottom}
+The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be paid, and the amount of this APC
+:::
+
+## Rise of APC model = rise of predatory open access publishers
+
+![](images/diversion_OA.png){#fig-diversion_oa width="80%"}
+
+#  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
+
+:::{.bottom}
+given this definition, which clues can you rely on to identify that a journal is or is not a predatory open access publisher
+:::
+
+# agressive spamming
 
 
+:::{.blockquote .incremental}
+- Due to the rich knowledge shown in your previous publіcatіоn [title]
+- Impressed a lot by your artiсlе [title]
+- Since your рaреr [title] has left a deep impression on us
+- We are delighted to notice that your puЬliѕhed рарer [title] has brought wide attention
+:::
 
-## figures {.smaller}
+# {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
 
-|figure | source et crédits |
-|:-- |:-- |
-| @fig-elsevier_profit | [Research Professional News](https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023/)  |
+## {background-color="#fef1da"}
+
+in case this quiz would not work in the presentation, you may [play it online](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html)
+
+
+# figures {.smaller}
+
+| figure               | source et crédits                                                                                                                                                |
+|:-----------------------------------|:-----------------------------------|
+| @fig-elsevier_profit | [Research Professional News](https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023/) |
 
 ## software used for this presentation
 
 Most part of the software used for this presentation are open source **"libre" software** (thank you Richard M. Stallman)
 
-
-
-- Quarto 1.3.450
-- VScode 1.8.0
-- R :
+-   Quarto 1.3.450
+-   VScode 1.8.0
+-   R :
 
 ```{r}
 sessioninfo::session_info()
 ```
 
-::: {.note}
+::: note
+l'éditeur de texte est VScode. VScode rend l'utilisation de Quarto plus facile (Quarto est un logiciel dépourvu d'interface graphique, de même que Pandoc qui est intégré à Quarto). VScode permet d'encapsuler également des chuncks de R (si R est chargé sur la machine avec les packages correspondants)
 
-l'éditeur de texte est VScode. VScode rend l'utilisation de Quarto plus facile (Quarto est un logiciel dépourvu d'interface graphique, de même que Pandoc qui est intégré à Quarto).
-VScode permet d'encapsuler également des chuncks de R (si R est chargé sur la machine avec les packages correspondants)
-
-Le package sessioninfo de R permet de montrer comment on peut documenter automatiquement le code utilisé pour produire une figure à partir d'un jeu de données par exemple. La reproductibilité du code est un enjeu essentiel et connexe à l'accès aux données. 
-
+Le package sessioninfo de R permet de montrer comment on peut documenter automatiquement le code utilisé pour produire une figure à partir d'un jeu de données par exemple. La reproductibilité du code est un enjeu essentiel et connexe à l'accès aux données.
 :::
 
 # Références {background-color="#fef1da"}
