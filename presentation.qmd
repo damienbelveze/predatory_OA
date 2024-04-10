@@ -76,8 +76,10 @@ Predatory journals and publishers are entities that prioritize self-interest at 
 ## a perversion of the Gold Road open Access {background-color="#fef1da"}
 
 ![green_gold](images/green_gold.png){#fig-green_gold width="70%"}
-:::{.bottom}
 The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be paid, and the amount of this APC
+
+:::{.notes}
+POAP parasite open access, exploit the crystal-clear philosophy of open access
 :::
 
 ## Rise of APC model = rise of predatory open access publishers
@@ -86,11 +88,11 @@ The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be p
 
 #  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
 
-:::{.bottom}
+:::{.notes}
 given this definition, which clues can you rely on to identify that a journal is or is not a predatory open access publisher
 :::
 
-# agressive spamming
+# agressive spamming {background-color="#fef1da"}
 
 
 :::{.blockquote .incremental}
@@ -99,6 +101,18 @@ given this definition, which clues can you rely on to identify that a journal is
 - Since your рaреr [title] has left a deep impression on us
 - We are delighted to notice that your puЬliѕhed рарer [title] has brought wide attention
 :::
+
+# non-transparent peer review {background-color="#fef1da"}
+
+:::{.notes}
+Predatory : non transparent or lacking information on APC
+:::
+
+# false metrics
+
+false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
+
+# {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
 # {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
 
