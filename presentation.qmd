@@ -58,10 +58,24 @@ expliquer ce qu'est un atelier de la donnée au niveau national Atelier de la do
 :::
 
 ::: {.notes}
-Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales. Researchers depend on these publishing compagnies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which thoes compagnies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries (\> hybrid journals)
+Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales. Researchers depend on these publishing compagnies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which thoes compagnies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries ( hybrid journals)
 
-Elsevier, Springer, Mac Millan, Wiley, American Chemical abstracts are basically predators in the publishing market, but what we call usually predatory open access publishers are not those big companies, but smaller and newer companies who pretend to provide a consistent peer reviewing process but do nothing than take money from the authors.they are truly impostors, but they are called predators.
+Elsevier, Springer, Nature, all predate public money by forcing scholars and their institutions to pay massive amounts of money to publish their papers, while the real added value, peer review process is massively done by researchers for free.
+They are predators, but not impersonators : in majority the papers that are submitted to these stakeholders are reviewed according to scientific standards.
 :::
+
+#  {background-color="#fef1da"}
+
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[2. The definition challenge]{.title}
+:::
+
+::: {.column width="50%"}
+![38% profit margin](images/elsevier.png){#fig-elsevier_profit width="100%"}
+:::
+:::
+
 
 # a light definition {background-color="#fef1da"}
 
@@ -75,7 +89,8 @@ Predatory journals and publishers are entities that prioritize self-interest at 
 
 ## a perversion of the Gold Road open Access {background-color="#fef1da"}
 
-![green_gold](images/green_gold.png){#fig-green_gold width="70%"}
+![](images/green_gold.png){#fig-green_gold width="70%"}
+
 The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be paid, and the amount of this APC
 
 :::{.notes}
@@ -85,6 +100,13 @@ POAP parasite open access, exploit the crystal-clear philosophy of open access
 ## Rise of APC model = rise of predatory open access publishers
 
 ![](images/diversion_OA.png){#fig-diversion_oa width="80%"}
+
+:::{.notes}
+The growth of predatory open access publishers is linked to the devopment of open access itself and particularly the Gold road with publication fees. 
+The Gold road does not mean that authors will have to pay [[APC]], but those predators we have mentioned above have made people understand that it was usually the case. 
+
+A new market emerged and with it a new genre of crooks. 
+:::
 
 #  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
 
@@ -108,17 +130,85 @@ given this definition, which clues can you rely on to identify that a journal is
 Predatory : non transparent or lacking information on APC
 :::
 
-# false metrics
+# POAP mimick existing journals and metrics
 
 false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
 
+@delgadoFraudulentFalseMetric
+
 # {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
-# {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
+# journal hijacking
+
+the term was forged in 2012 by an iranian researcher iranien Mehrdad Jalalian[[@abalkinaPredatoryVsHijacked2023]]
+
+usurpation of the graphic identity of a reputable journal by a journal that wants to attract either readers or authors (as in the case of Predatory open access publishers)
+
+:::{.note}
+this does not happen only to academic journals but also to media outlets as well (see [ABC news](https://abcnews.com.co), which impersonate the brand and mimicks [ABC](https://abcnews.go.com/), the famous American News media's graphical identity. 
+:::
+
+## {background-color="#fef1da"}
+
+in case this quiz would not work in the presentation, you may [play it online](https://damienbelveze.github.io/predatory_OA/metrics.html)
+
+## {background-iframe="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html"}
 
 ## {background-color="#fef1da"}
 
 in case this quiz would not work in the presentation, you may [play it online](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html)
+
+##  {background-color="#fef1da"}
+
+### Why some researchers consciously publish their results in predatory journals
+
+:::{.incremental}
+- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals (@boukacem-zeghmouriProfilesMotivesExperiences2023)
+- Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
+- APC are far cheaper than in traditional journals
+- In some countries, PhD students need to publish their paper before their defense (race against the clock)
+- The quantity of publications is still too often considered at the expense of their quality (publish or perish)
+:::
+
+## Why it is still a bad idea{.r-fit-text}
+
+:::{.incremental}
+- a publication in a predatory open access journal can be considered as a spot in your career
+- you may have real difficulties to recover rights on your submitted paper (republication)
+- the public money you gave to these scam journals should have been spent in a rigorous peer reviewing process
+- predatory open access publishers raise the level of distrust towards science among the public
+
+
+considering this, a lot of universities, *when they can prove that a publication was consciously made* in a predatory journal impose sanctions against the researchers who made the publication.
+:::
+
+#  {background-color="#fef1da"}
+
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[4. The grey zone]{.title}
+:::
+
+::: {.column width="50%"}
+![](images/mdpi.jpg){#fig-mdpi width="100%"}
+:::
+:::
+
+## the publication quality spectrum
+
+![](images/predatory_spectrum.png){#fig-publication_spectrum width="100%"}
+
+#  {background-color="#fef1da"}
+
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[4. The compass to publish]{.title}
+:::
+
+::: {.column width="50%"}
+![](images/compass.png){#fig-compass width="100%"}
+:::
+:::
 
 
 # figures {.smaller}
@@ -133,16 +223,10 @@ Most part of the software used for this presentation are open source **"libre" s
 
 -   Quarto 1.3.450
 -   VScode 1.8.0
--   R :
+-   Rstudio
+-   H5p
+-   Digitale's H5P editor (logiquiz) and board (digiboard)
 
-```{r}
-sessioninfo::session_info()
-```
 
-::: note
-l'éditeur de texte est VScode. VScode rend l'utilisation de Quarto plus facile (Quarto est un logiciel dépourvu d'interface graphique, de même que Pandoc qui est intégré à Quarto). VScode permet d'encapsuler également des chuncks de R (si R est chargé sur la machine avec les packages correspondants)
-
-Le package sessioninfo de R permet de montrer comment on peut documenter automatiquement le code utilisé pour produire une figure à partir d'un jeu de données par exemple. La reproductibilité du code est un enjeu essentiel et connexe à l'accès aux données.
-:::
 
 # Références {background-color="#fef1da"}
