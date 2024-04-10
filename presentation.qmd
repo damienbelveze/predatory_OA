@@ -73,9 +73,7 @@ Elsevier, Springer, Mac Millan, Wiley, American Chemical abstracts are basically
 
 ## journal hijacking
 
-```{=html}
-<iframe width="1263" height="257" src="https://damienbelveze.github.io/predatory_OA/hijacked_journal.html" frameBorder="0" scrolling="no" styles="width:100%"></iframe>
-```
+![](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html){height=257px width=1263px}
 
 ## figures {.smaller}
 
