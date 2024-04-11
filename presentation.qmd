@@ -1,6 +1,6 @@
 ---
-title: "How to avoid predatory open access publishers"
-subtitle: "Adopting a safe publication strategy"
+title: "how to avoid the publication trap"
+subtitle: "predatory open access publishers"
 date: 12/04/2024
 author: 
     - name: Damien Belvèze
@@ -72,7 +72,7 @@ They are predators, but not impersonators : in majority the papers that are subm
 :::
 
 ::: {.column width="50%"}
-![38% profit margin](images/elsevier.png){#fig-elsevier_profit width="100%"}
+![A Universalist concept?](images/shark.jpg){#fig-shark width="100%"}
 :::
 :::
 
@@ -85,7 +85,6 @@ Predatory journals and publishers are entities that prioritize self-interest at 
 
 @grudniewiczPredatoryJournalsNo2019
 
-# {background-color="#fef1da"} 
 
 ## a perversion of the Gold Road open Access {background-color="#fef1da"}
 
@@ -97,7 +96,7 @@ The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be p
 POAP parasite open access, exploit the crystal-clear philosophy of open access
 :::
 
-## Rise of APC model = rise of predatory open access publishers
+## Rise of APC model = rise of predatory open access publishers {background-color="#fef1da"}
 
 ![](images/diversion_OA.png){#fig-diversion_oa width="80%"}
 
@@ -108,13 +107,26 @@ The Gold road does not mean that authors will have to pay [[APC]], but those pre
 A new market emerged and with it a new genre of crooks. 
 :::
 
+# {background-color="#fef1da"}
+
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[2. How can we recognize predatory practices in publishers offers?]{.title}
+:::
+
+::: {.column width="50%"}
+![Dear wonderfull author, you're doing an awsome job!](images/call.png)
+:::
+:::
+
+
 #  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
 
 :::{.notes}
 given this definition, which clues can you rely on to identify that a journal is or is not a predatory open access publisher
 :::
 
-# agressive spamming {background-color="#fef1da"}
+## agressive spamming {background-color="#fef1da"}
 
 
 :::{.blockquote .incremental}
@@ -124,22 +136,24 @@ given this definition, which clues can you rely on to identify that a journal is
 - We are delighted to notice that your puЬliѕhed рарer [title] has brought wide attention
 :::
 
-# non-transparent peer review {background-color="#fef1da"}
+## non-transparent peer review {background-color="#fef1da"}
 
-very short review times : how can it be possible if the peer-review process is taken seriously
+:::{.incremental .r-fit-text}
+* very short review times : how can it be possible if the peer-review process is taken seriously
 
-average duration of the peer review process : 
-- MDPI = 35 days
-- Taylor&Francis, Springer, Frontiers : 78 to 122 days
-MDPI CEO says they have recruited an army of secretaries to help the job being done quickly
+* average duration of the peer review process : 
+  - MDPI = 35 days
+  - Taylor & Francis, Springer, Frontiers : 78 to 122 days
+* MDPI CEO says they have recruited an army of secretaries to help the job being done quickly
 
 Is MDPI too fast or the others too slow in their PR management?
+:::
 
 :::{.notes}
 Predatory : non transparent or lacking information on APC
 :::
 
-# acceptance rate and retraction rate {background-color="#fef1da"}
+## acceptance rate and retraction rate {background-color="#fef1da"}
 
 :::{.incremental}
 - **Acceptance rate** : MDPI > 41-50% of all submitted articles are accepted / others > 15-20%
@@ -149,26 +163,26 @@ Predatory : non transparent or lacking information on APC
 
 @kratochvilEvaluationUntrustworthyJournals2020a
 
-# self-citations
+# self-citations {background-color="#fef1da"}
 
-![](images/MDPI2.png)
+![is self-citation level a relevant criterium?](images/MDPI2.png){#fig-self_citations width="80%"}
 @kratochvilEvaluationUntrustworthyJournals2020a
 
 :::{.notes}
 MDPI performs a bit higher than WOS average of self-citations to journals but not so much (> grey zone)
 :::
 
-# POAP mimick existing journals and metrics {background-color="#fef1da"}
+## POAP mimick existing journals and metrics {background-color="#fef1da"}
 
 false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
 
 @delgadoFraudulentFalseMetric
 
-# {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
+## {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
-# journal hijacking
+## journal hijacking
 
-the term was forged in 2012 by an iranian researcher iranien Mehrdad Jalalian[[@abalkinaPredatoryVsHijacked2023]]
+the term was coined in 2012 by an iranian researcher,  Mehrdad Jalalian @abalkinaPredatoryVsHijacked2023
 
 usurpation of the graphic identity of a reputable journal by a journal that wants to attract either readers or authors (as in the case of Predatory open access publishers)
 
@@ -188,19 +202,29 @@ in case this quiz would not work in the presentation, you may [play it online](h
 
 ##  {background-color="#fef1da"}
 
-### Why some researchers consciously publish their results in predatory journals
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[3. why some researchers willingly used journals considered as predatory?]{.title}
+:::
 
-:::{.incremental}
-- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals (@boukacem-zeghmouriProfilesMotivesExperiences2023)[^1]
+::: {.column width="50%"}
+![](images/5_reasons.png){#fig-5_reasons width="100%"}
+:::
+:::
+
+## Why some researchers consciously publish their results in predatory journals {background-color="#fef1da"}
+
+:::{.incremental}{.r-fit-text}
+- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals @boukacem-zeghmouriProfilesMotivesExperiences2023[^1]
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
 - The quantity of publications is still too often considered at the expense of their quality (publish or perish)
 :::
 
-## Why it is still a bad idea{.r-fit-text}
+## Why it is still a bad idea {background-color="#fef1da"}
 
-:::{.incremental}
+:::{.incremental}{.r-fit-text}
 - a publication in a predatory open access journal can be considered as a spot in your career
 - you may have real difficulties to recover rights on your submitted paper (republication)
 - the public money you gave to these scam journals should have been spent in a rigorous peer reviewing process
@@ -210,20 +234,21 @@ in case this quiz would not work in the presentation, you may [play it online](h
 considering this, a lot of universities (mainly from Global North), *when they can prove that a publication was consciously made* in a predatory journal impose sanctions against the researchers who made the publication.
 :::
 
-# black list / white list {background-color="#fef1da"}
+## black list / white list {background-color="#fef1da"}
 
-## black list
+![Jeffrey Beall, author of the first POAP blacklist](images/beall_list.jpg){#fig-beall_list width="100%"}
+
+## black list {background-color="#fef1da"}
 
 - Beall's list (closed)
 - Commercial offers : not updated, incomplete, non transparent and too expansive
 
-## white list
+## white list (DOAJ, COPE, WOS, etc.) {background-color="#fef1da"}
 
 it's better to educate Academia where to publish rather than where to not publish
 
-- doaj
-- COPE
-# {background-color="#fef1da"}
+
+## {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
@@ -235,25 +260,48 @@ it's better to educate Academia where to publish rather than where to not publis
 :::
 :::
 
-## POAP a concept that protects the dominant positions of the big publishing companies ?
+## POAP a concept that protects the dominant positions of the big publishing companies ? {background-color="#fef1da"}
 
 > What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
 
 @CombattingPredatoryAcademic2022
 
-## the publication quality spectrum
+:::{.notes}
+see also Reggie Raju on LCP blog: 
+> I believe that the greatest negative impact of the list and its lingering vestiges is the psychological damage – this is a major hammer blow to researchers from the global south who are eager to become net contributors to the world’s knowledge production
 
-![](images/predatory_spectrum.png){#fig-publication_spectrum width="100%"}
+@rajuPredatoryPublishingGlobal2018
+:::
 
-## inflation of special issues
+## the publication quality spectrum {background-color="#fef1da"}
 
+**Low quality OA journals = predatory OA journals?**
 
+![it's not a black and white question](images/predatory_spectrum.png){#fig-publication_spectrum width="100%"}
 
-#  {background-color="#fef1da"}
+## inflation of special issues {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
-[4. The compass to publish]{.title}
+inflation of special issues:
+- more opportunities to publish for scholars under pressure (publish or perish)
+- more opportunities for publishers to get APC
+.- peer-review standards reduced
+@hansonStrainScientificPublishing2023
+:::
+
+::: {.column width="50%"}
+![the strain on scientific publishing](images/special_issues.png){#fig-special_issues width="100%"} 
+:::
+:::
+
+
+
+##  {background-color="#fef1da"}
+
+::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[5. The compass to publish]{.title}
 :::
 
 ::: {.column width="50%"}
@@ -261,7 +309,7 @@ it's better to educate Academia where to publish rather than where to not publis
 :::
 :::
 
-# Compass to publish
+## Compass to publish {background-color="#fef1da"}
 
 :::{ .incremental}
 - helps you to ask the good questions about a journal (-> weighted diagnostic)
@@ -269,33 +317,45 @@ it's better to educate Academia where to publish rather than where to not publis
 - [available in english](https://app.lib.uliege.be/compass-to-publish/)
 :::
 
-## Try C2P
+## Try C2P {background-color="#fef1da"}
 
 - [Polish Journal of Science](https://www.poljs.com)
 - [American Journal of Advanced Drug Delivery](https://www.primescholars.com/advanced-drug-delivery.html)
 
-## previous tests on AJADD
+## previous tests on AJADD {background-color="#fef1da"}
 
 ![](images/compass_barometer.PNG)
 
-# figures {.smaller}
+## figures {.smaller}
 
-| figure               | source et crédits                                                                                                                                                |
+| figure               | source et crédits       |                                                                    
 |:-----------------------------------|:-----------------------------------|
 | @fig-elsevier_profit | [Research Professional News](https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023/) |
+| @fig-shark | [Shark](https://flic.kr/p/9RAQ2J), by yosuke muroya, CC-by-nc |
+| @fig-green_gold | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
+| @fig-diversion_oa | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
+| @fig-self_citations | Sarka Erben Johansson's presentation on MDPI at the MUNI University 5/09/2023 |
+| @fig-mdpi | source: Anonymous on Twitter based on Illustration by David Parkins (nature.com/articles/d41586-019-03759-y) |
+| @fig-publication_spectrum | The InterAcademy Partnership. (2022). Combatting Predatory Academic Journals and Conferences—Full report. InterAcademy Partnership (IAP). https://www.interacademies.org/sites/default/files/2022-03/1.%20Full%20report%20-%20English%20FINAL.pdf |
+
+| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html. EL PAÍS English.
+| @fig-5_reasons | Author, A. (2022, juillet 9). Five reasons to publish in a predatory journal. Publishing with Integrity. https://predatory-publishing.com/five-reasons-to-publish-in-a-predatory-journal/ |
+| @fig-Beall_list | Author, A. (2020, septembre 28). What is Beall’s List? | Why was it shut down? Predatory Journals and Conferences. https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/
+  |
+
 
 ## software used for this presentation
 
-Most part of the software used for this presentation are open source **"libre" software** (thank you Richard M. Stallman)
+Most part of the software used for this presentation are **"libre" software**
 
 -   Quarto 1.3.450
 -   VScode 1.8.0
--   Rstudio
+-   Rstudio 2023.03.0
 -   H5p
 -   Digitale's H5P editor (logiquiz) and board (digiboard)
 
 
 
-# Références {background-color="#fef1da"}
+## Références {background-color="#fef1da"}
 
 [^1]: as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" (@CombattingPredatoryAcademic2022)
