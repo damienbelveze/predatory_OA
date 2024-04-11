@@ -23,7 +23,7 @@ format:
             numbers: true
 
 bibliography: references.bib
-csl: nature.csl
+csl: apa.csl
 ---
 
 #  {background-color="#fef1da"}
@@ -126,11 +126,39 @@ given this definition, which clues can you rely on to identify that a journal is
 
 # non-transparent peer review {background-color="#fef1da"}
 
+very short review times : how can it be possible if the peer-review process is taken seriously
+
+average duration of the peer review process : 
+- MDPI = 35 days
+- Taylor&Francis, Springer, Frontiers : 78 to 122 days
+MDPI CEO says they have recruited an army of secretaries to help the job being done quickly
+
+Is MDPI too fast or the others too slow in their PR management?
+
 :::{.notes}
 Predatory : non transparent or lacking information on APC
 :::
 
-# POAP mimick existing journals and metrics
+# acceptance rate and retraction rate {background-color="#fef1da"}
+
+:::{.incremental}
+- **Acceptance rate** : MDPI > 41-50% of all submitted articles are accepted / others > 15-20%
+
+- **retraction rate** : MDPI > 213 papers cited in the retraction database (but comparable retraction rates among better-regarded publishers)
+:::
+
+@kratochvilEvaluationUntrustworthyJournals2020a
+
+# self-citations
+
+![](images/MDPI2.png)
+@kratochvilEvaluationUntrustworthyJournals2020a
+
+:::{.notes}
+MDPI performs a bit higher than WOS average of self-citations to journals but not so much (> grey zone)
+:::
+
+# POAP mimick existing journals and metrics {background-color="#fef1da"}
 
 false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
 
@@ -163,7 +191,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 ### Why some researchers consciously publish their results in predatory journals
 
 :::{.incremental}
-- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals (@boukacem-zeghmouriProfilesMotivesExperiences2023)
+- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals (@boukacem-zeghmouriProfilesMotivesExperiences2023)[^1]
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
@@ -179,10 +207,23 @@ in case this quiz would not work in the presentation, you may [play it online](h
 - predatory open access publishers raise the level of distrust towards science among the public
 
 
-considering this, a lot of universities, *when they can prove that a publication was consciously made* in a predatory journal impose sanctions against the researchers who made the publication.
+considering this, a lot of universities (mainly from Global North), *when they can prove that a publication was consciously made* in a predatory journal impose sanctions against the researchers who made the publication.
 :::
 
-#  {background-color="#fef1da"}
+# black list / white list {background-color="#fef1da"}
+
+## black list
+
+- Beall's list (closed)
+- Commercial offers : not updated, incomplete, non transparent and too expansive
+
+## white list
+
+it's better to educate Academia where to publish rather than where to not publish
+
+- doaj
+- COPE
+# {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
@@ -194,9 +235,19 @@ considering this, a lot of universities, *when they can prove that a publication
 :::
 :::
 
+## POAP a concept that protects the dominant positions of the big publishing companies ?
+
+> What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
+
+@CombattingPredatoryAcademic2022
+
 ## the publication quality spectrum
 
 ![](images/predatory_spectrum.png){#fig-publication_spectrum width="100%"}
+
+## inflation of special issues
+
+
 
 #  {background-color="#fef1da"}
 
@@ -210,6 +261,22 @@ considering this, a lot of universities, *when they can prove that a publication
 :::
 :::
 
+# Compass to publish
+
+:::{ .incremental}
+- helps you to ask the good questions about a journal (-> weighted diagnostic)
+- maintained by the University of Liege
+- [available in english](https://app.lib.uliege.be/compass-to-publish/)
+:::
+
+## Try C2P
+
+- [Polish Journal of Science](https://www.poljs.com)
+- [American Journal of Advanced Drug Delivery](https://www.primescholars.com/advanced-drug-delivery.html)
+
+## previous tests on AJADD
+
+![](images/compass_barometer.PNG)
 
 # figures {.smaller}
 
@@ -230,3 +297,5 @@ Most part of the software used for this presentation are open source **"libre" s
 
 
 # Références {background-color="#fef1da"}
+
+[^1]: as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" (@CombattingPredatoryAcademic2022)
