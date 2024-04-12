@@ -199,13 +199,14 @@ MDPI performs a bit higher than WOS average of self-citations to journals but no
 
 false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
 
-:notebook: @delgadoFraudulentFalseMetric
+:notebook: @delgadoFraudulentFalseMetric2016
 
 ## {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
 ## journal hijacking {background-color="#fef1da"}
 
-the term was coined in 2012 by an iranian researcher,  Mehrdad Jalalian @abalkinaPredatoryVsHijacked2023
+the term was coined in 2012 by an iranian researcher, Mehrdad Jalalian 
+:notebook: @abalkinaPredatoryVsHijacked2023
 
 usurpation of the graphic identity of a reputable journal by a journal that wants to attract either readers or authors (as in the case of Predatory open access publishers)
 
@@ -239,7 +240,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 
 :::{.r-fit-text}
 ::::{.incremental}
-- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals :notebook: @boukacem-zeghmouriProfilesMotivesExperiences2023[^1]
+- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals :notebook: @boukacem-zeghmouriProfilesMotivesExperiences2023
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
@@ -307,7 +308,7 @@ see also Reggie Raju on LCP blog:
 :notebook: @rajuPredatoryPublishingGlobal2018
 
 See also : 
-as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" @CombattingPredatoryAcademic2022
+as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" @theinteracademypartnershipCombattingPredatoryAcademic2022
 
 :::
 
