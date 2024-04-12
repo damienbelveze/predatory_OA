@@ -24,6 +24,8 @@ This repository contains also h5P files, edited with [Logiquiz](https://ladigita
 In order to reuse and edit the content, you may add other h5P activities under H5P folder, referring to them in a specific html page (see metrics.html for instance)
 In order to edit the text of the presentation, you will need Quarto and a text editor (VS Code or Rstudio installed on your computer)
 
+the [digiboard](https://digiboard.app/b/061c10526e4a2) can be opened and cleaned. in order to access the board, answer to the question "my favorite word" with *echancrure* (which was the François Cheng's french favorite word, by the way)
+
 # Known issues
 
 the h5P "metrics" activity does not work properly from the online presentation. The Citefactor frame cannot be moved ; once a frame is moved, it cannot be moved again without the page being refreshed
