@@ -16,6 +16,7 @@ format:
 #       show-notes: separate-page
         embed-resources: true
         transition: convex
+        from: markdown+emoji
         theme: [dark, monstyle.css]
         reveal_plugins: [menu]
         reveal_options: 
@@ -36,16 +37,16 @@ csl: apa.csl
 -   Data curation on 'Recherche Data Gouv' repository
 :::
 
-::: notes
-expliquer ce qu'est un atelier de la donnée au niveau national Atelier de la donnée ARDOISE = Université de Rennes 2 et Université de Rennes
+:::{.notes}
+Introduction to ARDOISE, the briton Research Data Hub, and the collective's set of services
 :::
 
 ::: {.column width="30%"}
-![](images/ardoise.png)
+![ARDoISE datahub](images/ardoise.png)
 :::
 :::
 
-## outline
+## outline {background-color="#fef1da"}
 
 :::{.incremental}
 1. Predators and Imposters
@@ -104,12 +105,12 @@ Moreover, when researchers sometimes agree on a definition to qualify these jour
 Predatory journals and publishers are entities that prioritize self-interest at the expense of scholarship and are characterized by false or misleading information, deviation from best editorial and publication practices, a lack of transparency, and/or the use of aggressive and indiscriminate solicitation practices
 :::
 
-@grudniewiczPredatoryJournalsNo2019
+:notebook: @grudniewiczPredatoryJournalsNo2019
 
 
 ## a perversion of the Gold Road open Access {background-color="#fef1da"}
 
-![](images/green_gold.png){#fig-green_gold width="70%"}
+![Gold vs Green](images/green_gold.png){#fig-green_gold width="70%"}
 
 The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be paid, and the amount of this APC
 
@@ -183,7 +184,7 @@ Predatory : non transparent or lacking information on APC
 - **retraction rate** : MDPI > 213 papers cited in the retraction database (but comparable retraction rates among better-regarded publishers)
 :::
 
-@kratochvilEvaluationUntrustworthyJournals2020a
+:notebook: @kratochvilEvaluationUntrustworthyJournals2020a
 
 ## self-citations {background-color="#fef1da"}
 
@@ -198,7 +199,7 @@ MDPI performs a bit higher than WOS average of self-citations to journals but no
 
 false indexation in bibliographic databases: POAP mimick the standard metrics and use misleading metrics
 
-@delgadoFraudulentFalseMetric
+:notebook: @delgadoFraudulentFalseMetric
 
 ## {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
@@ -230,7 +231,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 :::
 
 ::: {.column width="50%"}
-![](images/5_reasons.png){#fig-5_reasons width="100%"}
+![the dark side of publication](images/5_reasons.png){#fig-5_reasons width="100%"}
 :::
 :::
 
@@ -238,7 +239,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 
 :::{.r-fit-text}
 ::::{.incremental}
-- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals @boukacem-zeghmouriProfilesMotivesExperiences2023[^1]
+- Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals :notebook: @boukacem-zeghmouriProfilesMotivesExperiences2023[^1]
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
@@ -275,7 +276,7 @@ it's better to educate Academia where to publish rather than where to not publis
 - not always affordable (WoS, Scopus)
 - not enough updated (WoS index list too many proven POAP and contribute to legitimate them)
 - incomplete (a lot of quality publishers) have not yet applied to be listed into DOAJ
-- not enough geopolitically sensitive @kulczyckiWeWonDefeat2023
+- not enough geopolitically sensitive :notebook: @kulczyckiWeWonDefeat2023
 :::
 
 
@@ -297,13 +298,13 @@ it's better to educate Academia where to publish rather than where to not publis
 What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
 :::
 
-@theinteracademypartnershipCombattingPredatoryAcademic2022
+:notebook: @theinteracademypartnershipCombattingPredatoryAcademic2022
 
 :::{.notes}
 see also Reggie Raju on LCP blog: 
 > I believe that the greatest negative impact of the list and its lingering vestiges is the psychological damage – this is a major hammer blow to researchers from the global south who are eager to become net contributors to the world’s knowledge production
 
-@rajuPredatoryPublishingGlobal2018
+:notebook: @rajuPredatoryPublishingGlobal2018
 
 See also : 
 as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" @CombattingPredatoryAcademic2022
@@ -324,7 +325,8 @@ inflation of special issues:
 - more opportunities to publish for scholars under pressure (publish or perish)
 - more opportunities for publishers to gain money through APC
 - peer-review standards reduced
-@hansonStrainScientificPublishing2023
+
+:notebook: @hansonStrainScientificPublishing2023
 :::
 
 ::: {.column width="50%"}
