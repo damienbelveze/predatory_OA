@@ -297,7 +297,7 @@ it's better to educate Academia where to publish rather than where to not publis
 What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
 :::
 
-@CombattingPredatoryAcademic2022
+@theinteracademypartnershipCombattingPredatoryAcademic2022
 
 :::{.notes}
 see also Reggie Raju on LCP blog: 
@@ -365,20 +365,20 @@ inflation of special issues:
 
 ## figures {.smaller}
 
+:::{.scrollable}
 | figure               | source et crédits       |                                                                    
 |:-----------------------------------|:-----------------------------------|
 | @fig-elsevier_profit | [Research Professional News](https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023/) |
 | @fig-shark | [Shark](https://flic.kr/p/9RAQ2J), by yosuke muroya, CC-by-nc |
-| @fig-green_gold | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
-| @fig-diversion_oa | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
+| @fig-green_gold | Perrin, S. (2022, novembre 30). [Beware predatory publishers!](https://doi.org/10.5281/zenodo.7380236)  |
+| @fig-diversion_oa | Perrin, S. (2022, novembre 30). [Beware predatory publishers!](https://doi.org/10.5281/zenodo.7380236)  |
 | @fig-MDPI2 | Sarka Erben Johansson's presentation on MDPI at the MUNI University 5/09/2023 |
-| @fig-mdpi | source: Anonymous on Twitter based on Illustration by David Parkins (nature.com/articles/d41586-019-03759-y) |
-| @fig-publication_spectrum | The InterAcademy Partnership. (2022). Combatting Predatory Academic Journals and Conferences—Full report. InterAcademy Partnership (IAP). https://www.interacademies.org/sites/default/files/2022-03/1.%20Full%20report%20-%20English%20FINAL.pdf |
-
-| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html. EL PAÍS English. |
-| @fig-5_reasons | Author, A. (2022, juillet 9). Five reasons to publish in a predatory journal. Publishing with Integrity. https://predatory-publishing.com/five-reasons-to-publish-in-a-predatory-journal/ |
-| @fig-beall_list | Author, A. (2020, septembre 28). What is Beall’s List? | Why was it shut down? Predatory Journals and Conferences. https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/
-  |
+| @fig-mdpi | source: Anonymous on Twitter based [on Illustration by David Parkins]((nature.com/articles/d41586-019-03759-y))  |
+| @fig-publication_spectrum | The InterAcademy Partnership. (2022). [Combatting Predatory Academic Journals and Conferences—Full report](https://www.interacademies.org/sites/default/files/2022-03/1.%20Full%20report%20-%20English%20FINAL.pdf. InterAcademy Partnership).  |
+| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html. EL PAÍS English). |
+| @fig-5_reasons | Author, A. (2022, juillet 9). [Five reasons to publish in a predatory journal. Publishing with Integrity](https://predatory-publishing.com/five-reasons-to-publish-in-a-predatory-journal/).  |
+| @fig-beall_list | Author, A. (2020, septembre 28). [What is Beall’s List? Why was it shut down? Predatory Journals and Conferences](https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/). |
+:::
 
 
 ## software used for this presentation
