@@ -45,7 +45,19 @@ expliquer ce qu'est un atelier de la donnée au niveau national Atelier de la do
 :::
 :::
 
-#  {background-color="#fef1da"}
+## outline
+
+:::{.incremental}
+1. Predators and Imposters
+2. The definition challenge
+3. How can we recognize predatory practices in publishers offers?
+4. why some researchers willingly used journals considered as predatory?
+5. The grey zone
+6. The compass to publish
+:::
+
+
+## {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
@@ -64,7 +76,7 @@ Elsevier, Springer, Nature, all predate public money by forcing scholars and the
 They are predators, but not impersonators : in majority the papers that are submitted to these stakeholders are reviewed according to scientific standards.
 :::
 
-#  {background-color="#fef1da"}
+##  {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
@@ -76,8 +88,17 @@ They are predators, but not impersonators : in majority the papers that are subm
 :::
 :::
 
+:::{.notes}
 
-# a light definition {background-color="#fef1da"}
+There is an intense and ongoing worldwide debate on the definition of POAP, whether a journal should be qualified as POAP when it ensures only a poor level of peer-reviewing but helps researchers who cannot afford to pay $4000 fees to publish in Gold OA journals owned by Springer, Wiley, McMillan, and others. We will discuss this later.
+
+Additionally, some journals that were initially considered POAP have increased their quality standards and gained credit and legitimacy among researchers.
+
+Moreover, when researchers sometimes agree on a definition to qualify these journals, they often disagree on the criteria one should use to determine if a given journal should be classified as a predatory open-access publisher or not.
+:::
+
+
+## a light definition {background-color="#fef1da"}
 
 :::{.blockquote}
 Predatory journals and publishers are entities that prioritize self-interest at the expense of scholarship and are characterized by false or misleading information, deviation from best editorial and publication practices, a lack of transparency, and/or the use of aggressive and indiscriminate solicitation practices
@@ -107,11 +128,11 @@ The Gold road does not mean that authors will have to pay [[APC]], but those pre
 A new market emerged and with it a new genre of crooks. 
 :::
 
-# {background-color="#fef1da"}
+## {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
-[2. How can we recognize predatory practices in publishers offers?]{.title}
+[3. How can we recognize predatory practices in publishers offers?]{.title}
 :::
 
 ::: {.column width="50%"}
@@ -120,7 +141,7 @@ A new market emerged and with it a new genre of crooks.
 :::
 
 
-#  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
+##  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
 
 :::{.notes}
 given this definition, which clues can you rely on to identify that a journal is or is not a predatory open access publisher
@@ -148,8 +169,9 @@ given this definition, which clues can you rely on to identify that a journal is
 
 Is MDPI too fast or the others too slow in their PR management?
 :::
-
 :::{.notes}
+Even legitimate publishers have a year-on-year tendency to put pressure on reviewers to reduce peer review times in order to increase the pace of publications and raise the rate of remuneration for shareholders
+
 Predatory : non transparent or lacking information on APC
 :::
 
@@ -163,10 +185,10 @@ Predatory : non transparent or lacking information on APC
 
 @kratochvilEvaluationUntrustworthyJournals2020a
 
-# self-citations {background-color="#fef1da"}
+## self-citations {background-color="#fef1da"}
 
-![is self-citation level a relevant criterium?](images/MDPI2.png){#fig-self_citations width="80%"}
-@kratochvilEvaluationUntrustworthyJournals2020a
+![is self-citation level a relevant criterium?](images/MDPI2.png){#fig-MDPI2 width="80%"}
+
 
 :::{.notes}
 MDPI performs a bit higher than WOS average of self-citations to journals but not so much (> grey zone)
@@ -180,7 +202,7 @@ false indexation in bibliographic databases: POAP mimick the standard metrics an
 
 ## {background-iframe="https://damienbelveze.github.io/predatory_OA/metrics.html"}
 
-## journal hijacking
+## journal hijacking {background-color="#fef1da"}
 
 the term was coined in 2012 by an iranian researcher,  Mehrdad Jalalian @abalkinaPredatoryVsHijacked2023
 
@@ -204,7 +226,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
-[3. why some researchers willingly used journals considered as predatory?]{.title}
+[4. why some researchers willingly used journals considered as predatory?]{.title}
 :::
 
 ::: {.column width="50%"}
@@ -214,23 +236,25 @@ in case this quiz would not work in the presentation, you may [play it online](h
 
 ## Why some researchers consciously publish their results in predatory journals {background-color="#fef1da"}
 
-:::{.incremental}{.r-fit-text}
+:::{.r-fit-text}
+::::{.incremental}
 - Young Global South researchers think they are not enough experienced or equiped to publish in traditional journals @boukacem-zeghmouriProfilesMotivesExperiences2023[^1]
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
-- The quantity of publications is still too often considered at the expense of their quality (publish or perish)
+- The quantity of publications is still too often considered at the expense of their quality (publish or perish). Academia still favors quantity over quality.
+::::
 :::
 
 ## Why it is still a bad idea {background-color="#fef1da"}
 
-:::{.incremental}{.r-fit-text}
+:::{.r-fit-text}
+::::{.incremental}
 - a publication in a predatory open access journal can be considered as a spot in your career
 - you may have real difficulties to recover rights on your submitted paper (republication)
 - the public money you gave to these scam journals should have been spent in a rigorous peer reviewing process
 - predatory open access publishers raise the level of distrust towards science among the public
-
-
+::::
 considering this, a lot of universities (mainly from Global North), *when they can prove that a publication was consciously made* in a predatory journal impose sanctions against the researchers who made the publication.
 :::
 
@@ -240,19 +264,26 @@ considering this, a lot of universities (mainly from Global North), *when they c
 
 ## black list {background-color="#fef1da"}
 
-- Beall's list (closed)
+- Beall's list (closed, biased (subjective, anti-OA, pro Big Publishing Companies, individual = subject to intimidation)
 - Commercial offers : not updated, incomplete, non transparent and too expansive
 
 ## white list (DOAJ, COPE, WOS, etc.) {background-color="#fef1da"}
 
-it's better to educate Academia where to publish rather than where to not publish
+it's better to educate Academia where to publish rather than where to not publish, but no whitelist make consensus so far. These lists are
+
+:::{.incremental}
+- not always affordable (WoS, Scopus)
+- not enough updated (WoS index list too many proven POAP and contribute to legitimate them)
+- incomplete (a lot of quality publishers) have not yet applied to be listed into DOAJ
+- not enough geopolitically sensitive @kulczyckiWeWonDefeat2023
+:::
 
 
 ## {background-color="#fef1da"}
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
-[4. The grey zone]{.title}
+[5. The grey zone]{.title}
 :::
 
 ::: {.column width="50%"}
@@ -262,7 +293,9 @@ it's better to educate Academia where to publish rather than where to not publis
 
 ## POAP a concept that protects the dominant positions of the big publishing companies ? {background-color="#fef1da"}
 
-> What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
+:::{.blockquote}
+What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
+:::
 
 @CombattingPredatoryAcademic2022
 
@@ -271,6 +304,10 @@ see also Reggie Raju on LCP blog:
 > I believe that the greatest negative impact of the list and its lingering vestiges is the psychological damage – this is a major hammer blow to researchers from the global south who are eager to become net contributors to the world’s knowledge production
 
 @rajuPredatoryPublishingGlobal2018
+
+See also : 
+as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" @CombattingPredatoryAcademic2022
+
 :::
 
 ## the publication quality spectrum {background-color="#fef1da"}
@@ -285,8 +322,8 @@ see also Reggie Raju on LCP blog:
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
 inflation of special issues:
 - more opportunities to publish for scholars under pressure (publish or perish)
-- more opportunities for publishers to get APC
-.- peer-review standards reduced
+- more opportunities for publishers to gain money through APC
+- peer-review standards reduced
 @hansonStrainScientificPublishing2023
 :::
 
@@ -301,7 +338,7 @@ inflation of special issues:
 
 ::: {.columns style="display: flex !important; height: 90%;"}
 ::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
-[5. The compass to publish]{.title}
+[6. The compass to publish]{.title}
 :::
 
 ::: {.column width="50%"}
@@ -334,13 +371,13 @@ inflation of special issues:
 | @fig-shark | [Shark](https://flic.kr/p/9RAQ2J), by yosuke muroya, CC-by-nc |
 | @fig-green_gold | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
 | @fig-diversion_oa | Perrin, S. (2022, novembre 30). Beware predatory publishers! https://doi.org/10.5281/zenodo.7380236 |
-| @fig-self_citations | Sarka Erben Johansson's presentation on MDPI at the MUNI University 5/09/2023 |
+| @fig-MDPI2 | Sarka Erben Johansson's presentation on MDPI at the MUNI University 5/09/2023 |
 | @fig-mdpi | source: Anonymous on Twitter based on Illustration by David Parkins (nature.com/articles/d41586-019-03759-y) |
 | @fig-publication_spectrum | The InterAcademy Partnership. (2022). Combatting Predatory Academic Journals and Conferences—Full report. InterAcademy Partnership (IAP). https://www.interacademies.org/sites/default/files/2022-03/1.%20Full%20report%20-%20English%20FINAL.pdf |
 
-| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html. EL PAÍS English.
+| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html. EL PAÍS English. |
 | @fig-5_reasons | Author, A. (2022, juillet 9). Five reasons to publish in a predatory journal. Publishing with Integrity. https://predatory-publishing.com/five-reasons-to-publish-in-a-predatory-journal/ |
-| @fig-Beall_list | Author, A. (2020, septembre 28). What is Beall’s List? | Why was it shut down? Predatory Journals and Conferences. https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/
+| @fig-beall_list | Author, A. (2020, septembre 28). What is Beall’s List? | Why was it shut down? Predatory Journals and Conferences. https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/
   |
 
 
@@ -348,7 +385,7 @@ inflation of special issues:
 
 Most part of the software used for this presentation are **"libre" software**
 
--   Quarto 1.3.450
+- Quarto 1.3.450
 -   VScode 1.8.0
 -   Rstudio 2023.03.0
 -   H5p
@@ -357,5 +394,3 @@ Most part of the software used for this presentation are **"libre" software**
 
 
 ## Références {background-color="#fef1da"}
-
-[^1]: as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" (@CombattingPredatoryAcademic2022)
