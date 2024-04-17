@@ -248,6 +248,16 @@ in case this quiz would not work in the presentation, you may [play it online](h
 ::::
 :::
 
+:::{.notes}
+By "equiped", we mean that researchers are poorer than their colleagues from their western counterparts, and they have more teaching charges and less time to lead research projects, they also lack of administrative support, and cannot rely on uptodate training on data management and use of research software : 
+
+> Many countries, especially low income countries, have limited access to the infrastructure needed to conduct research such as intermittent electricity supplies, poor technical infrastructure (such as internet connectivity and technical support), sub-standard research
+training, lack of expert data management support, lack of access to the published literature, and to the latest research software (Bezuidenhout et al., 2017). Low level connectivity issues effectively limit access even where material is ostensibly open (Shanahan & Bezuidenhout, 2022). Researchers are also time poor, because of the pressure to teach and limited administrative support. As a result of these issues, researchers may lack confidence in the quality of their work and trust in international systems of communication and research assessment, which typically do not account for such obstacles and the inequity in resources available to different research groups (Leonelli 2018)
+
+:notebook: @groupPOLICYBRIEFData2024
+:::
+
+
 ## Why it is still a bad idea {background-color="#fef1da"}
 
 :::{.r-fit-text}
