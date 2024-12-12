@@ -67,14 +67,18 @@ Introduction to ARDOISE, the briton Research Data Hub, and the collective's set 
 
 ::: {.column width="50%"}
 ![38% profit margin](images/elsevier.png){#fig-elsevier_profit width="100%"}
+In 2023, Erik Ertgstrom, Elsevier's CEO, earned 16,5 M euros
 :::
 :::
 
 ::: {.notes}
-Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales. Researchers depend on these publishing compagnies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which thoes compagnies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries ( hybrid journals)
+Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales. Researchers depend on these publishing companies for the quality assessment of their work. as a raw material, they yield for nothing the product of their public funded research, with which those companies will make extravagant profits by siphoning off university libraries' finances. Or they will require research teams to pay 2 or 3 thousand dollars for so-called article processing charges in order to make their publication open access in their journals. In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries ( hybrid journals)
 
 Elsevier, Springer, Nature, all predate public money by forcing scholars and their institutions to pay massive amounts of money to publish their papers, while the real added value, peer review process is massively done by researchers for free.
 They are predators, but not impersonators : in majority the papers that are submitted to these stakeholders are reviewed according to scientific standards.
+
+about Erik Ergstrom see [Relx group Annual Remuneration Report](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2023-annual-report.pdf)
+
 :::
 
 ##  {background-color="#fef1da"}
@@ -141,12 +145,21 @@ A new market emerged and with it a new genre of crooks.
 :::
 :::
 
+## {background-iframe="https://damienbelveze.github.io/predatory_OA/predatory_letter.html"}
+
+:::{.notes}
+if the page is not properly displayed within this Quarto presentation, send the following URL to attendants : 
+https://damienbelveze.github.io/predatory_OA/predatory_letter.html
+:::
+
+<!--
 
 ##  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
 
 :::{.notes}
 given this definition, which clues can you rely on to identify that a journal is or is not a predatory open access publisher
 :::
+
 
 ## agressive spamming {background-color="#fef1da"}
 
@@ -158,12 +171,14 @@ given this definition, which clues can you rely on to identify that a journal is
 - We are delighted to notice that your puЬliѕhed рарer [title] has brought wide attention
 :::
 
+-->
+
 ## non-transparent peer review {background-color="#fef1da"}
 
 :::{.incremental .r-fit-text}
 * very short review times : how can it be possible if the peer-review process is taken seriously
 
-* average duration of the peer review process : 
+* average duration of the peer review process (sept 2023): 
   - MDPI = 35 days
   - Taylor & Francis, Springer, Frontiers : 78 to 122 days
 * MDPI CEO says they have recruited an army of secretaries to help the job being done quickly
@@ -181,14 +196,14 @@ Predatory : non transparent or lacking information on APC
 :::{.incremental}
 - **Acceptance rate** : MDPI > 41-50% of all submitted articles are accepted / others > 15-20%
 
-- **retraction rate** : MDPI > 213 papers cited in the retraction database (but comparable retraction rates among better-regarded publishers)
+- **Retraction rate** : MDPI > 213 papers cited in the retraction database (but comparable retraction rates among better-regarded publishers)
 :::
 
 :notebook: @kratochvilEvaluationUntrustworthyJournals2020a
 
 ## self-citations {background-color="#fef1da"}
 
-![is self-citation level a relevant criterium?](images/MDPI2.png){#fig-MDPI2 width="80%"}
+![is self-citation level a relevant criterium?](images/mdpi2.png){#fig-MDPI2 width="80%"}
 
 
 :::{.notes}
@@ -211,7 +226,7 @@ the term was coined in 2012 by an iranian researcher, Mehrdad Jalalian
 usurpation of the graphic identity of a reputable journal by a journal that wants to attract either readers or authors (as in the case of Predatory open access publishers)
 
 :::{.note}
-this does not happen only to academic journals but also to media outlets as well (see [ABC news](https://abcnews.com.co), which impersonate the brand and mimicks [ABC](https://abcnews.go.com/), the famous American News media's graphical identity. 
+this does not happen only to academic journals but also to media outlets as well (see [ABC news](https://abcnews.com.co), which impersonates the brand and mimicks [ABC](https://abcnews.go.com/), the famous American News media's graphical identity. 
 :::
 
 ## {background-color="#fef1da"}
@@ -223,6 +238,14 @@ in case this quiz would not work in the presentation, you may [play it online](h
 ## {background-color="#fef1da"}
 
 in case this quiz would not work in the presentation, you may [play it online](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html)
+
+**Quiz one**
+- option 1 : 10.1016/j.ypmed.2024.107937
+- option 2 : 10.36648/2572-5483.6.11.121
+
+**Quiz two**
+- option 1 : https://sylwan-journal.pl/apex/f?p=SYLWAN:WSKAZOWKI
+- option 2 : http://www.sylwan.ibles.org/guide.html 
 
 ##  {background-color="#fef1da"}
 
@@ -244,7 +267,7 @@ in case this quiz would not work in the presentation, you may [play it online](h
 - Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
 - APC are far cheaper than in traditional journals
 - In some countries, PhD students need to publish their paper before their defense (race against the clock)
-- The quantity of publications is still too often considered at the expense of their quality (publish or perish). Academia still favors quantity over quality.
+- The quantity of publications is still too often considered at the expense of their quality (publish or perish). **Academia still favors quantity over quality.**
 ::::
 :::
 
@@ -281,13 +304,13 @@ considering this, a lot of universities (mainly from Global North), *when they c
 
 ## white list (DOAJ, COPE, WOS, etc.) {background-color="#fef1da"}
 
-it's better to educate Academia where to publish rather than where to not publish, but no whitelist make consensus so far. These lists are
+it's better to educate Academia where to publish rather than where to not publish, but no whitelist makes consensus so far. These lists are
 
 :::{.incremental}
 - not always affordable (WoS, Scopus)
-- not enough updated (WoS index list too many proven POAP and contribute to legitimate them)
+- not enough updated (WoS index also lists too many proven POAP and contributes to legitimate them)
 - incomplete (a lot of quality publishers) have not yet applied to be listed into DOAJ
-- not enough geopolitically sensitive :notebook: @kulczyckiWeWonDefeat2023
+- not enough geopoliticaly sensitive :notebook: @kulczyckiWeWonDefeat2023
 :::
 
 
@@ -374,7 +397,7 @@ inflation of special issues:
 
 ## previous tests on AJADD {background-color="#fef1da"}
 
-![](images/compass_barometer.PNG)
+![](images/compass_barometer.png)
 
 ## figures {.smaller}
 
@@ -392,6 +415,10 @@ inflation of special issues:
 | @fig-5_reasons | Author, A. (2022, juillet 9). [Five reasons to publish in a predatory journal. Publishing with Integrity](https://predatory-publishing.com/five-reasons-to-publish-in-a-predatory-journal/).  |
 | @fig-beall_list | Author, A. (2020, septembre 28). [What is Beall’s List? Why was it shut down? Predatory Journals and Conferences](https://predatory-publishing.com/what-is-bealls-list-why-was-it-shut-down/). |
 :::
+
+## content reused
+
+The predatory letter activity is an english translation of the activity that was originaly designed by Olivier Poirier (UQTR), Valérie Levasseur (UQAC), Félix de la Durantaye (ENAP) and Valérie Bourdeau (UQ) ([source](https://view.genially.com/6568e905a90e77001494859c)).
 
 
 ## software used for this presentation
