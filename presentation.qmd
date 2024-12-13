@@ -240,12 +240,14 @@ in case this quiz would not work in the presentation, you may [play it online](h
 in case this quiz would not work in the presentation, you may [play it online](https://damienbelveze.github.io/predatory_OA/hijacked_journal.html)
 
 **Quiz one**
-- option 1 : 10.1016/j.ypmed.2024.107937
-- option 2 : 10.36648/2572-5483.6.11.121
+
+- option 1 : 10.1016/j.ypmed.2024.107937  
+- option 2 : 10.36648/2572-5483.6.11.121  
 
 **Quiz two**
-- option 1 : https://sylwan-journal.pl/apex/f?p=SYLWAN:WSKAZOWKI
-- option 2 : http://www.sylwan.ibles.org/guide.html 
+
+- option 1 : https://sylwan-journal.pl/apex/f?p=SYLWAN:WSKAZOWKI  
+- option 2 : http://www.sylwan.ibles.org/guide.html    
 
 ##  {background-color="#fef1da"}
 
@@ -302,17 +304,18 @@ considering this, a lot of universities (mainly from Global North), *when they c
 - Beall's list (closed, biased (subjective, anti-OA, pro Big Publishing Companies, individual = subject to intimidation)
 - Commercial offers : not updated, incomplete, non transparent and too expansive
 
-## white list (DOAJ, COPE, WOS, etc.) {background-color="#fef1da"}
+## white list (DOAJ, COPE, WOS, Scopus etc.) {background-color="#fef1da"}
 
 it's better to educate Academia where to publish rather than where to not publish, but no whitelist makes consensus so far. These lists are
 
+:::{.r-fit-text}
 :::{.incremental}
 - not always affordable (WoS, Scopus)
-- not enough updated (WoS index also lists too many proven POAP and contributes to legitimate them)
+- not enough updated (WoS index also lists too many proven POAP and contributes to legitimate them) See for instance :notebook: @abalkinaJournalHijackersStill2024
 - incomplete (a lot of quality publishers) have not yet applied to be listed into DOAJ
 - not enough geopoliticaly sensitive :notebook: @kulczyckiWeWonDefeat2023
 :::
-
+:::
 
 ## {background-color="#fef1da"}
 
