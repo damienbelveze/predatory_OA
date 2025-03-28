@@ -1,7 +1,7 @@
 ---
 title: "how to avoid the publication trap"
 subtitle: "predatory open access publishers"
-date: 12/04/2024
+date: last-modified
 author: 
     - name: Damien Belvèze
       email: damien.belveze@univ-rennes.fr
@@ -11,17 +11,23 @@ author:
 
 format: 
     revealjs:
-        slide-number: c/t
-#        show-slide-number: # print
-#       show-notes: separate-page
-        embed-resources: true
-        transition: convex
-        from: markdown+emoji
-        theme: [dark, monstyle.css]
-        reveal_plugins: [menu]
-        reveal_options: 
-          menu: 
-            numbers: true
+      logo: images/logo.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: images/lab.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+          slide-number: c/t
+#         show-slide-number: # print
+#         show-notes: separate-page
+          embed-resources: true
+          transition: convex
+          from: markdown+emoji
+          theme: [dark, monstyle.css]
+          reveal_plugins: [menu]
+          reveal_options: 
+            menu: 
+              numbers: true
 
 bibliography: references.bib
 csl: apa.csl
