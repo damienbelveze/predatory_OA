@@ -11,8 +11,8 @@ author: "Damien Belvèze"
 
 ## presentation
 
-- <a href="2026/presentation_fr.html">French presentation (HTML)</a>  
-- <a href="2026/presentation_fr.pdf" download>French presentation (PDF) with speaker notes</a>  
+- <a href="https://damienbelveze.github.io/predatory_OA/2026/presentation_fr.html#/title-slide">French presentation (HTML)</a>  
+- <a href="https://damienbelveze.github.io/predatory_OA/2026/presentation_fr.pdf" download>French presentation (PDF) with speaker notes</a>  
 
 ## activities
 
@@ -23,19 +23,19 @@ author: "Damien Belvèze"
 
 ### predatory letter
 
-- <a href="H5P/predatory_letter.html">letter activity</a>
+- <a href="https://damienbelveze.github.io/predatory_OA/H5P/predatory_letter.html">letter activity</a>
 - <a href="H5P/predatory_letter.h5p" download>activity files</a>
 
 ### Quiz
 
-- <a href="H5P/sylwan.html">quiz activity</a>
+- <a href="https://damienbelveze.github.io/predatory_OA/H5P/sylwan.html">quiz activity</a>
 - <a href="H5P/sylwan.h5p" download>quiz files</a>
 
 
 # 2025  How to avoid the publication trap : predatory open access publishers
 
-- <a href="2025/presentation.html">English presentation (HTML)</a>
-- <a href="2025/presentation_en.pdf">English presentation (PDF)</a>
+- <a href="https://damienbelveze.github.io/predatory_OA/2025/presentation.html">English presentation (HTML)</a>
+- <a href="https://damienbelveze.github.io/predatory_OA/2025/presentation_en.pdf">English presentation (PDF)</a>
 
 
 
