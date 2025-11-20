@@ -1,0 +1,41 @@
+---
+title: "how to avoid the publication trap"
+subtitle: "a presentation about predatory open access publishers and how to detect them"
+author: "Damien Belvèze"
+---
+
+
+<img src="images/grey_mist.jpg" alt="Toile de fond abstraite d'art mural blanc noir pour la photographie D67" width="50%" />
+
+# 2026 : predatory open access publishers and the grey zone
+
+## presentation
+
+- <a href="2026/presentation_fr.html">French presentation (HTML)</a>  
+- <a href="2026/presentation_fr.pdf" download>French presentation (PDF) with speaker notes</a>  
+
+## activities
+
+### Publiscore
+
+- <a href="https://digiboard.app/b/5b762adc76a51">Link to Digiboard</a>
+- <a href="2026/tableau_digiboard.zip" download>activity files</a>
+
+### predatory letter
+
+- <a href="H5P/predatory_letter.html">letter activity</a>
+- <a href="H5P/predatory_letter.h5p" download>activity files</a>
+
+### Quiz
+
+- <a href="H5P/sylwan.html">quiz activity</a>
+- <a href="H5P/sylwan.h5p" download>quiz files</a>
+
+
+# 2025  How to avoid the publication trap : predatory open access publishers
+
+- <a href="2025/presentation.html">English presentation (HTML)</a>
+- <a href="2025/presentation_en.pdf">English presentation (PDF)</a>
+
+
+

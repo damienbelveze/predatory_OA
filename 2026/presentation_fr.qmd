@@ -1,0 +1,681 @@
+---
+title: "Les éditeurs prédateurs et la zone grise"
+subtitle: "Atelier de formation doctorale"
+date: last-modified
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+      logo: ../images/logo.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: ../images/lab.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+          slide-number: c/t
+#         show-slide-number: # print
+#         show-notes: separate-page
+      embed-resources: true
+      show-notes: false
+      speaker: true
+      transition: convex
+      from: markdown+emoji
+#     markdown:
+# extensions: [emoji]
+      theme: [dark, ../CSS/monstyle.css]
+      reveal_plugins: [menu]
+      reveal_options: 
+        menu: 
+          numbers: true
+bibliography: ../biblio/references.bib
+csl: ../biblio/apa.csl
+---
+
+
+# Plan {background-color="#fef1da"}
+
+::: incremental
+1.  Prédateurs et imposteurs
+2.  Entre gris clair et gris foncé : critères de jugement
+3.  Listes blanches et listes noires
+4.  Comment affamer les escrocs et les rapaces
+:::
+
+#  {background-color="#fef1da"}
+
+::::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[1. prédateurs et imposteurs]{.title}
+:::
+
+::: {.column width="50%"}
+![38% de marge réalisée en 2023](../images/elsevier.png){#fig-elsevier_profit width="100%"} 
+:::
+:::::
+
+::: notes
+
+<!-- In 2023, Erik Engström, RELx's CEO (Elsevier's mother company), earned 16.5 M euros -->
+En 2023, Erik Engstrom, le PDG de RELx, maison-mère d'Elsevier a empoché un salaire de 16,5 millions d'euros
+<!--**Elsevier has built up a war chest with \$1.17 billion in net revenues, representing a 38% increase in sales.** -->
+Elsevier a construit un trésor de guerre de 1,17 milliards de dollars de revenus, fait une marge de 30% par an. 
+<!--Researchers depend on these publishing companies for the quality assessment of their work. -->
+Les chercheurs et chercheuses actuellement dépendent de ces compagnies pour l'évaluation de leur travail
+<!--As a raw material, they yield for nothing the product of their public funded research, with which those companies will make extravagant profits by siphoning off university libraries' finances. -->
+Ils et elles livrent gratuitement la matière première de leur travaux et assurent gratuitement également la révision de ces derniers ; du résultat de ce travail gratuit, ces entreprises vont faire des bénéfices démesurés en les revendant à des prix très élevés à la communauté scientifique le produit de son labeur. 
+
+<!--Or they will require research teams to pay 2 or 3 thousand dollars for so-called **Article processing charges (APC)** in order to make their publication open access in their journals. -->
+Ou bien lorsque les financeurs l'exigent, ils vont permettre aux chercheurs et chercheuses de publier en open access mais en facturant au passage des coûts délirants (jusqu'à 9500$ l'article chez Nature), au titre de ce qu'on appelle improprement APC ("Article Processing Charges")
+
+<!-- In most of the cases, big publishing companies will make profit from both publication costs and subscriptions sold at a premium to libraries ( therefor are they called **hybrid publishers**) -->
+
+
+<!--Elsevier, Springer, Nature, all predate public money by forcing scholars and their institutions to pay massive amounts of money either to publish or to read scientific papers, while the real added value, peer review process is massively done by researchers for free.
+
+They are **predators**, but not **impersonators** : in majority the papers that are submitted to these stakeholders are reviewed accordingly to scientific standards. -->
+
+Elsevier, Springer, Nature, toutes ces entreprises font de la prédation sur les budgets alloués à la recherche soit en faisant payer de façon disproportionnée les chercheurs pour lire soit pour publier des articles scientifiques, et bien souvent les deux dans un combo qu'on appelle un accord "publish and read".  Rappelons que la matière première de ce marché leur est fournie de façon gratuite. Ce sont donc des prédateurs mais pas des imposteurs dans la mesure où le travail de révision par les pairs est généralement conduit de façon responsable et conforme aux standards scientifiques (c'est du moins là-dessus qu'ils font reposer leur réputation). 
+
+<!-- about Erik Ergstrom see [Relx group Annual Remuneration Report](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2023-annual-report.pdf) -->
+
+Sur le salaire faramineux du patron d'Elsevier, voir le [rapport fourni par Relx](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2023-annual-report.pdf)
+
+
+:::
+
+
+
+# Une définition *de surface* {background-color="#fef1da"}
+
+::: blockquote
+Predatory journals and publishers are entities that prioritize self-interest at the expense of scholarship and are characterized by false or misleading information, deviation from best editorial and publication practices, a lack of transparency, and/or the use of aggressive and indiscriminate solicitation practices
+:::
+
+:notebook: @grudniewiczPredatoryJournalsNo2019
+
+::: notes
+
+Cette définition est très vague et laisse la possibilité d'en interpréter chaque terme. L'activité qui suit vise à approfondir cette définition et surtout à rendre plus concrets les critères formels qui permettraient de répérer des pratiques éditoriales qu'on pourrait qualifier de prédatrices
+
+:::
+
+##  {background-color="#fef1da"}
+
+**Quelles conséquences pour la recherche et les chercheurs**
+
+::: {.incremental}
+-   une tâche dans le CV
+-   difficultés à récupérer les droits sur son article
+-   de l'argent public perdu (puisque l'article n'a pas été revu correctement)
+-   les éditeurs prédateurs minent la confiance des communautés de recherche mais aussi du public envers les publications en général
+:::
+
+## {background-color="#fef1da"}
+
+**1. Les POAP sont des éditeurs en open access**
+
+
+![Gold vs Green](../images/green_gold.png){#fig-green_gold width="70%"}
+
+Le [DOAJ](https://doaj.org/) indique si des APC sont demandés par le journal et leur montant
+<!-- The [DOAJ](https://doaj.org/) specifies wether APC for a given journal will be paid, and the amount of this APC -->
+
+::: notes
+POAP exploitent un jeu de dupes où loes chercheurs et chercheuses doivent payer pour publier. 
+APC : *Article processing charges* ou bien *Authors Pay Corporations*
+:::
+
+## La ruée vers les APC entraîne l'augmentation des POAP {background-color="#fef1da"}
+
+![](../images/diversion_OA.png){#fig-diversion_oa width="80%"}
+
+::: notes
+
+<!-- The growth of predatory open access publishers is linked to the development of open access itself and particularly the Gold road with publication fees. The Gold road does not mean that authors will have to pay \[\[APC\]\], but those predators we have mentioned above, have made people understand that it was usually the case.
+
+A new market emerged and with it a new genre of crooks. -->
+
+la croissance des éditeurs en Open Access qui s'adapte à la demande d'ouverture des agences de financement est de plus en plus liée au versement d'APC. Cela ne fait pas au départ du modèle Gold un modème APC, mais cette confusion est entretenue par les éditeurs commerciaux qui systématiquement associent Gold et "frais de publication".
+
+Aujourd'hui, on a tendance à opposer *Gold* et *Diamond*, pour distinguer des éditeurs à qui on verse des APC de ceux qui s'appuient sur des fonds publics pour ne pas faire les payer ni les auteurs, ni les lecteurs. 
+
+Paiement d'APC : un nouveau marché, et avec lui un nouveau genre d'escrocs
+:::
+
+#  {background-color="#fef1da"}
+
+::::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[2. Entre gris clair et gris foncé]{.title}
+:::
+
+::: {.column width="50%"}
+![](../images/gris_clair_fonce.png){#fig-goldman width="100%"}
+:::
+:::::
+
+::: notes
+
+voir plus loin les questions de définition
+<!--There is an **intense and ongoing worldwide debate on the definition of POAP**, whether a journal should be qualified as POAP when it ensures only a poor level of peer-reviewing but helps researchers who cannot afford to pay \$4K fees to publish in Gold OA journals owned by Springer, Wiley, McMillan, and others. We will discuss this later.
+
+Additionally, some journals that were initially considered POAP have increased their quality standards and have been gaining credit year after year as well as legitimacy among researchers.
+
+Moreover, when researchers sometimes agree on a definition to qualify these journals, they often disagree on the criteria one should use to determine if a given journal should be classified as a predatory open-access publisher or not. -->
+:::
+
+
+#  {background-iframe="https://digiboard.app/b/5b762adc76a51"}
+
+::: notes
+Si la page ne s'affiche pas correctement dans les slides, envoyer dans le chat interne à l'outil de visio le lien aux étudiants : https://digiboard.app/b/5b762adc76a51
+
+A l'image du Nutriscore, il s'agit de remplir les critères du Publiscore. 
+Quelles pratiques relèvent d'un éditeur sérieux (partie verte), quelles pratiques sont franchement douteuses et indiquent à coup sûr un prédateur (zone rouge), quelles pratiques peuvent être remises en question et susciter des critiques voire un changement de choix en matière d'éditeur (zone orange et intermédiaire)
+
+Dans le digiboard, les étudiants envoient des post-its avec leurs idées en cliquant sur le menu de gauche (icone "label")
+
+La suite de la présentation montre que ces repères sont utiles, mais qu'il ne faut pas les utiliser de manière non critique
+
+Dans la suite des slides, POAP vaut pour "Predatory Open Access Publishers"
+
+:::
+
+
+##  {background-color="#fef1da"}
+
+**"les POAP font payer des APC trop bas"**
+
+::: incremental
+
+- Pourquoi des APC en dessous de 150 euros seraient l'indice d'un éditeur prédateur :notebook: @teixeiradasilvaWhatValueJournal2018
+- il existe des *imposteurs* qui se vendent **très** cher 
+- le montant des APC payés ne peut servir de critère formel pour évaluer le sérieux d'un journal
+- les APC accroissent la confiance du public dans la science : "il suffit de payer pour être publié"
+- <span class="orange">Le coût des APC n'est pas un excellent critère pour départager les offres sur le sérieux de leur révision par les pairs</span>
+
+:::
+
+::: notes
+- le groupe PEERE financé par l'Union Européenne a réalisé une enquête indiquant qu'à produire un article coûtait effectivement pour un éditeur entre \$480 et \$650
+- c'était en 2011 et depuis la technologie a fait baisser les coûts
+- OMICS (authentique prédateur) a été condamné par le tribunal de commerce US pour avoir pratiqué des coûts allant jusqu'à \$1164 
+- plus d'infos :notebook: @kratochvilEvaluationUntrustworthyJournals2020
+:::
+
+##  {background-color="#fef1da"}
+
+**"Les POAP ne sont pas transparents sur leurs coûts"**
+
+::: incremental
+- frais de soumission
+- frais d'illustration
+- <span class="green">L'ensemble des APC devraient être affichés d'emblée sur le site en effet. Si ce n'est pas le cas : extrême prudence !</span>
+:::
+
+
+##  {background-color="#fef1da"}
+
+**"Les POAP ne proposent pas de licence usuelle"**
+
+::: incremental
+
+- Bronze OA
+- certains journaux légitimes affichent sur leur page qu'ils proposent une licence ouverte, sans préciser immédiatement laquelle
+- <span class="orange">Pas un critère très sûr pour départager les offres</span>
+:::
+
+
+::: notes
+
+"Similar to licence terms, even the criterion of clear declaration of the OA mode lacks any foundation because this mode of publishing is apparent from publication conditions in the instructions for authors. This criterion disqualifies even reputable journals such as the Journal of the Czech and Slovak Societies of Pathology, where instead of a clear declaration of OA mode, the journal only mentions ‘the original articles [...] are published [...] as Open Access articles’"
+voir @kratochvilEvaluationUntrustworthyJournals2020
+
+:::
+
+##  {background-color="#fef1da"}
+
+**Les POAP affichent ou réalisent de fait des temps de révision très courts**
+
+::: incremental
+
+- C'est quoi un temps de révision normal ?
+- temps de révision ou temps d'organisation
+- l'anonymat du peer-review, la gratuité du travail, les autres tâches plus pressantes peuvent aussi rendre le ou la revieweuse négligent.e ou moins regardant.e
+- si le processus de révision par les pairs était ouvert, on ne se préoccuperait pas de sa durée.
+- <span class="orange">Un critère sujet à caution</span>
+
+
+:::
+
+::: notes
+
+ce qui est long dans un processus de révision normal, ce n'est pas le temps de révision lui-même (< 1 journée :notebook: @huismanDurationQualityPeer2017), mais celui de la période pendant laquelle un.e chercheur.se surchargée de travail peut trouver ces quelques heures de révision ou bien le temps d'identifier un.e spécialiste
+
+"Equally questionable is the length of the review process based on the analysis of its usual duration (Nguyen et al., 2015; Wicherts, 2016) because, while writing a review may only take a couple of hours, the whole length of the peer review process is also influenced by searching for a suitable peer reviewer or by the fact that the reviewer and editor are otherwise occupied (Huisman & Smits, 2017; McGlinchey, 2017; Schmidt, Ross-Hellauer, van Edig, & Moylan, 2018). Therefore, a peer review lasting only a couple of days cannot be automatically regarded as dubious editorial work." :notebook: @kratochvilEvaluationUntrustworthyJournals2020
+
+<!--
+-   very short review times : how can it be possible if the peer-review process is taken seriously
+
+-   average duration of the peer review process (sept 2023):
+
+    -   MDPI = 35 days
+    -   Taylor & Francis, Springer, Frontiers : 78 to 122 days
+
+-   MDPI CEO says they have recruited an army of secretaries to help the job being done quickly
+
+Is MDPI too fast or the others too slow in their PR management?
+
+Even legitimate publishers have a year-on-year tendency to put pressure on reviewers to reduce peer review times in order to increase the pace of publications and to raise the rate of remuneration for shareholders
+
+:notebook: @kratochvilEvaluationUntrustworthyJournals2020a
+-->
+
+:::
+
+
+##  {background-color="#fef1da"}
+
+**"Les POAP utilisent de fausses métriques ou des métriques douteuses"**
+
+::: incremental
+- l'Impact Factor même avéré n'est pas un bon indice de la qualité d'une revue
+- Impact Factor allégué alors que la revue n'est pas indexée par le JCR (ou ne l'a jamais été)
+- invention de fausses métriques (> Skopus)
+- affiliation avec des métriques mal considérées (> Copernicus) :notebook: @delgadoFraudulentFalseMetric2016
+- <span class="green"> Un critère assez sûr !</span>
+:::
+
+::: notes
+
+Impact Factor pas un bon indice de la qualité car avantage les anciennes revues + peut être falsifié au moyen de citations complaisantes ou auto-citations pratiquées par les revues voir plus loin. 
+
+:::
+
+##  {background-color="#fef1da"}
+
+**"Les POAP abusent de l'autocitation"**
+
+::::{.columns}
+:::{.column width="50%"}
+::: incremental
+- autocitation à des fins de promotion bibliométrique
+- ce n'est pas une pratique réservée aux éditeurs prédateurs
+- <span class="orange">Un critère peu sûr pour départager les offres</span>
+:::
+:::
+:::{.column width="50%"}
+![](../images/mdpi2.png){#fig-MDPI2}
+
+:::
+::::
+
+::: notes
+
+Dans les journaux du WOS, le taux d'auto-citation (au niveau du journal) est compris entre 0 et 15%
+Une partie des journaux de MDPI dépasse cette barre des 15% mais pas tous, idem pour *Frontiers*. 
+*PLoS One* qui a bonne presse a un journal qui n'est pas bcp en dessous des 15%
+
+:::
+
+##  {background-color="#fef1da"}
+
+**"Les POAP abusent des numéros spéciaux"**
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Il est vrai que cette pratique est d'abord apparue chez les *usual suspects* (MDPI, Frontiers)
+Mais elle s'étend à tous les éditeurs OA (cf. [Biomed Central Journals](https://www.biomedcentral.com/journals))
+La périodicité des livraisons n'est plus vraiment adaptée à la communication scientifique sur le web
+
+:::
+::: {.column width="50%"}
+![](../images/special_issues.png){#fig-special_issues}
+:::
+::::
+
+::: notes
+Publication d'un article aussitôt qu'il a été révisé : pratique commune aujourd'hui. 
+:::
+
+##  {background-color="#fef1da"}
+
+
+**"Les POAP sur-sollicitent les chercheurs/ses"**
+
+![](../images/call.png)
+
+
+
+##  {background-iframe="../H5P/predatory_letter.html"}
+
+::: incremental
+Formules utilisées pour flatter le ou la chercheuse contactée
+
+- Due to the rich knowledge shown in your previous publіcatіоn [title]
+- Impressed a lot by your artiсlе [title]
+- Since your рaреr [title] has left a deep impression on us
+- We are delighted to notice that your puЬliѕhed рарer [title] has brought wide attention
+:::
+
+
+
+##  {background-color="#fef1da"} 
+
+**Les POAP imitent les éditeurs légitimes**
+
+::: incremental
+- titres proches (mais peut-on être créatifs sur des sujets de niche)
+- titres identiques et confusion entretenue : le cas des *highjacking predatory publishers* 
+- <span class="orange">même titre : piratage, titre proche : pas forcément un prédateur</span>
+:::
+
+##  {background-iframe="../H5P/sylwan.html"}
+
+::: notes
+
+**Préventive Medicine**
+
+l'activité propose deux liens ; ces deux liens mènent à deux pages d'accueil de deux journaux qui portent le même nom ("Sylwan") et ont peu ou prou le même design. 
+L'un de ces journaux est fiable, l'autre essaie de copier le premier ; lequel est lequel ?
+
+- [10.4103/PMRR.PMRR_226_24](https://journals.lww.com/pmrr/fulltext/2025/09000/mental_health_in_india__the_pathway_to_zero.7.aspx) **Preventive Medicine Review & Research** ; présent dans le [DOAJ](https://doaj.org/toc/2950-5836) : 10 000 roupies indiennes soit à peu près 100 euros par article publié (à comparer aux 3910 dollars indiqués sur la [page d'accueil de la revue Preventive Medicine](https://www.sciencedirect.com/journal/preventive-medicine) chez Elsevier) ; Le journal indien est supporté par une fondation non-for-profit (Foundation for People Centric Health System)
+
+- [10.36648/2572-5483.6.11.121](https://preventive-medicine.imedpub.com/articles/how-lack-of-nutrition-is-concerned-with-depression-and-mental-health-complications.pdf) 
+iMedPub : faux nez d'OMICS (cf [Wikipedia](https://en.wikipedia.org/wiki/OMICS_Publishing_Group), et [l'Actualité](https://lactualite.com/sante-et-science/le-cancer-qui-ronge-la-science/)
+
+**Sylwan**
+
+https://sylwan-journal.pl/apex/f?p=SYLWAN:WSKAZOWKI\:\:\:\: est l'adresse de l'éditeur légitime, tandis que http://www.sylwan.ibles.org/guide.html est l'adresse du prédateur. 
+Assez souvent, il est utile d'aller voir la page wikipedia consacrée à ces journaux (s'il y en a une). En l'occurrence, la Wikipédia anglaise comporte un article sur Sylwan. dans l'historique de la page, on a un lien qui renvoie à une page archivée dans Internet Archive, cette page témoigne de la tentative de détournement du journal Sylwan. 
+
+<!--the term was coined in 2012 by an iranian researcher, Mehrdad Jalalian :notebook: @abalkinaPredatoryVsHijacked2023 -->
+Le terme *HighJacking journals* a été forgé par un chercheur iranien Mehrad Jalalian :notebook: @abalkinaPredatoryVsHijacked2023 et permet de qualifier une imposture qui porend pour moyen l'usurpation de l'identité graphique d'un éditeur réputé par un journal prédateur afin de détourner le public de ce journal déjà installé vers lui. 
+
+<!--usurpation of the graphic identity of a reputable journal by a journal that wants to attract either readers or authors (as in the case of Predatory open access publishers)
+this does not happen only to academic journals but also to media outlets as well (see [ABC news](https://abcnews.com.co), which impersonates the brand and mimicks [ABC](https://abcnews.go.com/), the famous American News media's graphical identity.
+-->
+
+:::
+
+##  {background-color="#fef1da"}
+
+**"Les POAP ont des taux d'acceptation et de rétractation élevés"**
+
+::: incremental
+
+- **Taux d'acceptation** : MDPI \> 41-50% d'acceptation sur l'ensemble des articles soumis / ensemble des éditeurs \> 15-20%
+- Lorsqu'on s'apprête à soumettre, on ne connaît pas le taux d'acceptation
+- taux difficile à établir même pour des acteurs comme le WOS ou Scopus :notebook: @theinteracademypartnershipCombattingPredatoryAcademic2022a 
+- **Retraction rate** : MDPI \> 213 papiers cités dans la [base du site Retraction Watch](https://gitlab.com/crossref/retraction-watch-data) (mais un compte comparable chez des éditeurs ayant bonne réputation)
+:::
+
+::: notes
+
+The University of Jordan, Jordan, financially incentivises its researchers to publish in high-quality journals with Impact Factors issued by the Journal Citation Report (Clarivate Analytics). On finding that one of its faculty had published extensively in one single journal (Fresenius Environmental Bulletin, Impact Factor = 0.37 and listed on Scopus), whose 100% acceptance rate turnover ranged from 1 to 28 days, this journal was subsequently “blacklisted” so that authors using it would not be financially incentivised or promoted on the basis of publishing there. :notebook: @theinteracademypartnershipCombattingPredatoryAcademic2022a
+
+:::
+
+##  {background-color="#fef1da"}
+
+**"Les comités de rédaction des POAP sont en partie fictifs ou les affiliations sont peu claires"**
+
+::: incremental
+- inscrivent des chercheurs/ses sans leur demander leur avis dans les comités de rédaction
+- inventent des affiliations farfelues (University of Britany, University of Paris 16, etc.)
+- attention, pas facile de connaître l'appartenance réelle d'un membre du board à l'établissement allégué (rôle d'ORCID)
+- <span class="green">Lorsqu'on peut établir l'usurpation d'une identité, c'est définitivement un journal prédateur</span>
+:::
+
+
+## {background-color="#fef1da"}
+
+**Est-ce que MDPI est un éditeur prédateur ?**
+
+::::{.columns .r-fit-text}
+:::{.column width="50%" .incremental}
+:white_check_mark: MPDI publie de bons articles dans de bons journaux    
+:white_check_mark: 18 journaux ont un impact factor > 4 et c'est parfois considéré comme un signe de qualité   
+:white_check_mark: Les financeurs de la recherche en Europe recommandent certains journaux édités par MDPI   
+::: 
+:::{.column width="50%" .incremental}
+:-1: MDPI pratique un spamming intensif    
+:-1: multiplie les numéros spéciaux (mais c'est une tendance générale, voir plus haut)    
+:-1: Certains directeurs de publication ont du démissionner parce qu'ils refusaient de céder à la pression de MDPI pour revoir les critères de qualité de leur journal à la baisse  
+:::
+::::
+
+:notebook: @crosettoMDPIPredatoryPublisher2021
+
+:::{.notes}
+
+"Traditional journals have a fixed number of issues per year — say, 12 — and then a low to very low number of special issues, that can cover a particular topic, celebrate the work of an important scholar, or collect papers from conferences. MDPI journals tend to follow the same model, only that the number of special issues has increased in time, to the point of equaling, surpassing, and finally dwarfing the number of normal issues. Moreover, special issues are usually proposed by a group of scientists to the editors of the journal, who accept or reject the offer. At MDPI, it is the publisher who sends out invitations for Special Issue, and it is unclear which role, if any, the editorial board of the normal issues has in the process. "
+
+:::
+
+
+
+##  {background-color="#fef1da"}
+
+::::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[3. Listes blanches et listes noires]{.title}
+:::
+
+::: {.column width="50%"}
+![](../images/whitelist_blacklist.jpg){#fig-white_black width="100%"}
+:::
+:::::
+
+
+##  {background-color="#fef1da"}
+
+**Liste de Beall**
+
+:::: columns
+:::{.column width="50%"}
+::: incremental
+- 2008-2017 fermée suite à des pressions d'éditeurs
+- personne isolée donc sujette à des pressions
+- critères subjectifs
+- liste biaisée (anti-OA, pro-Big publising)
+- jugements discriminants à l'égard des chercheurs et éditeurs du Sud global
+:::
+:::
+:::{.column width="50%"}
+![](../images/beall.jpg){#fig-Beall_list}
+:::
+::::
+
+
+::: notes
+
+sur la nature discriminante, potentiellement raciste des jugements de Jeffrey Beall :
+extrait d'un entretien cité par :notebook: @teixeiradasilvaSignsDivisivenessDiscrimination2022
+"Look, when I discover a new publisher from Nigeria, I admit I am more suspicious than I would be were the publisher from, for example, the Vatican."
+Beall qualifiait Scielo, la infrastructure d'archivage et de publication Hispanophone et lusophone comme un "éditeur de bidonville" (*publishing favela*) :notebook: @teixeiradasilvaWhatValueJournal2018
+
+On observe dans le monde académique que cette suspicion à l'encontre des éditeurs du Sud s'étend aux reviewers et aux auteurs : 
+
+Des études ont montré que des soumissions faites par des auteurs du Sud global étaient évaluées avec plus de sévérité que des soumissions provenant de chercheurs et chercheuses affiliées à des établissements du Nord 
+
+voir aussi : 
+
+see also Reggie Raju on LCP blog: \> "I believe that the greatest negative impact of the list and its lingering vestiges is the psychological damage – this is a major hammer blow to researchers from the global south who are eager to become net contributors to the world’s knowledge production"
+
+:notebook: @rajuPredatoryPublishingGlobal2018
+
+See also : as a consequence, some papers published in POAP are "often cited because they are the sole data sources on various semi-peripheral countries and their contexts" :notebook: @theinteracademypartnershipCombattingPredatoryAcademic2022
+
+:::
+
+## {background-color="#fef1da"}
+
+**POAP, un concept qui protège les positions dominantes occupées par les Corporations du Nord ?**
+
+::: blockquote
+What the concept of predatory journals actually reveals is the deep inequalities between the scientific working conditions in countries close to the “centre” of global science, such as the UK and US, and those on its periphery
+:::
+
+:notebook: @theinteracademypartnershipCombattingPredatoryAcademic2022
+
+
+
+## Cabell's list {background-color="#fef1da"}
+
+::: incremental
+- pas assez transparente
+- pas assez à jour (mais n'est-ce pas le propre de toute liste blanche ou noire) ?
+- trop chère pour le service rendu
+:::
+
+::: notes
+
+Cabell a couté jusqu'à 47 000 euros par an à l'Université de Masarick avant qu'il soit mis un terme à l'abonnement. 
+Depuis cette université à remis en question les critères des listes existantes, en les comparant, les analysant avec d'autres bibliothécaires du monde entier puis a ouvert un service d'analyse des revues que les chercheurs/ses peuvent saisir avant de publier. 
+
+:::
+
+
+## {background-color="#fef1da"} 
+
+**A quoi servent les listes noires ?**
+
+::: {.incremental .r-fit-text}
+- pour beaucoup à rien, en plus "moralement infaisables" :notebook: @teixeiradasilvaWhatValueJournal2018
+- C'est sans fin et géopoliquement sensible :notebook: @kulczyckiWeWontDefeat2023
+- pour certains à fixer des critères de qualité discutables et très coûteux pour écarter les concurrents des pays émergents
+- ça coûte très cher
+- listes noires "crowd-sourcées" : [highjacking journals checker](https://docs.google.com/spreadsheets/d/1ak985WGOgGbJRJbZFanoktAN_UFeExpE/edit?gid=5255084#gid=5255084), [Predatory journals](https://www.predatoryjournals.org/) 
+- les listes blanches (DOAJ) valent mieux (moins d'effets de bord négatifs) mais elles sont aussi restrictives, incomplètes, pas à jour
+- il vaut mieux consacrer des moyens à "éduquer les publiant.e.s"
+- liste de vérifications : [Think, check, submit](https://thinkchecksubmit.org/), [Compass to Publish](https://services.lib.uliege.be/compass-to-publish/test)
+:::
+
+::: notes
+Comme service coûteux qui peut être avancé pour se démarquer des soi-disant prédateurs, la capacité à archiver sur le très long terme les articles reçus pourrait en réalité être pris en charge par le chercheur ou la chercheuse (archivage dans HAL, SCielo, Internet Archive ou archivage pris en charge par des organisations à but non lucratif : LOCKSS, CLOCKSS, Portico)
+
+à propos de https://www.predatoryjournals.org :
+
+Some free black lists exist that could be of some interest : 
+https://www.predatoryjournals.org/ (self-organized and self-hosted anonymous coalition of victims of POAP)
+anonymity prevents them from being sued by publishers (as Beall was threatened to be)
+:::
+
+#  {background-color="#fef1da"}
+
+::::: {.columns style="display: flex !important; height: 90%;"}
+::: {.column width="50%" style="display: flex; justify-content: center; align-items: center;"}
+[4. Comment affamer les escrocs et les rapaces ?]{.title}
+:::
+
+::: {.column width="50%"}
+![](../images/mdpi.jpg){#fig-mdpi width="100%"}
+:::
+:::::
+
+
+#  {background-color="#fef1da"}
+
+**Changer drastiquement l'écosystème de la publication**
+
+::: {.incremental .r-fit-text}
+- Le phénomène prédateur vient de la nature commerciale des principaux acteurs
+- système des APC particulièrement défavorable aux chercheurs/ses du Sud, mais également aux autres
+- La communauté scientifique a besoin de se réapproprier ses revues
+- s'investir dans la création de revues diamant plutôt que dans le reviewing chez les *Big Publishers*
+- élargir les pratiques d'**open peer review** pour rendre visible le travail de révision :notebook: @silerThereNoBlack2020 / @silerPredatoryPublishersLatest2021
+- privilégier la qualité des publications plutôt que leur quantité (contre la culture du "publish or perish*)
+- former davantage les jeunes chercheuses/chercheurs aux bonnes pratiques en matière de publication
+- encourager la création de revues pour les *negative data*
+:::
+
+::: notes
+
+## Pourquoi des chercheurs/ses publient consciemment chez les prédateurs : 
+
+-   Young Global South researchers think they are not enough experienced or *equiped* (see below) to publish in traditional journals :notebook: @boukacem-zeghmouriProfilesMotivesExperiences2023
+-   Predatory open access publishers publish whatever you submit, so they make it possible to publish **negative data**
+-   APC are far cheaper than in traditional journals
+-   In some countries, PhD students need to publish their paper before their defense (race against the clock)
+-   The quantity of publications is still too often considered at the expense of their quality (publish or perish). **Academia still favors quantity over quality.**
+
+
+## nécessaire formation des chercheurs/ses et inégalité d'accès à ces formations
+
+By "equiped", we mean that researchers are poorer than their colleagues from their western counterparts, and they have more teaching charges and less time to lead research projects, they also lack of administrative support, and cannot rely on uptodate training on data management and use of research software :
+
+> Many countries, especially low income countries, have limited access to the infrastructure needed to conduct research such as intermittent electricity supplies, poor technical infrastructure (such as internet connectivity and technical support), sub-standard research training, lack of expert data management support, lack of access to the published literature, and to the latest research software (Bezuidenhout et al., 2017). Low level connectivity issues effectively limit access even where material is ostensibly open (Shanahan & Bezuidenhout, 2022). Researchers are also time poor, because of the pressure to teach and limited administrative support. As a result of these issues, researchers may lack confidence in the quality of their work and trust in international systems of communication and research assessment, which typically do not account for such obstacles and the inequity in resources available to different research groups (Leonelli 2018)
+
+:notebook: @groupPOLICYBRIEFData2024
+
+## peer open review
+
+**limites de l'Open Peer Reviewing**
+
+un reviewer moins expérimenté que l'auteur du papier soumis peut rencontrer un problème de légitimité dans un processus ouvert. Olivier Le Deuff propose de n'ouvrir le peer-reviewing qu'après que l'article ait reçu une première validation ([source](https://twitter.com/neuromancien/status/1489510047596138496))
+
+Propos corroboré par une étude déposée le 16 août sur le serveur de preprints SSRN
+L'étude montre un fort biais de rejet ou acceptation d'un même article signé par deux chercheurs selon le nom de l'auteur de la paire qui est dévoilé : auteur très renommé : fort taux d'acceptation / auteur débutant : faible taux d'acceptation :notebook: @huberNobelNoviceAuthor2022
+
+::: 
+
+
+#  {background-color="#fef1da"}
+
+**Partager des ressources pour aider la création de revue dans les pays émergents**
+
+::: incremental
+- veiller à ce que les critères de qualité ne bloquent pas l'émergence d'acteurs dans les pays du Sud
+- ambassageurs DOAJ Pays du Sud (:notebook: @olyhoekDOAJAmbassadorProgramme2018 ) pour combler les "injustices cognitives" entre Nord et Sud
+- travail de tri réalisé avec des chercheurs du Sud dans le DOAJ
+
+:::
+
+
+
+## illustrations {.smaller}
+
+::: scrollable
+| figure | source et crédits |
+|:-----------------------------------|:-----------------------------------|
+| @fig-elsevier_profit | [Research Professional News](https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023) |
+| @fig-shark | [Shark](https://flic.kr/p/9RAQ2J), by yosuke muroya, CC-by-nc |
+| @fig-goldman | portion de la couverture de l'album "Entre Gris clair et Gris foncé" de Jean-Jacques Goldman, 1987 |
+| @fig-green_gold | Perrin, S. (2022, novembre 30). [Beware predatory publishers!](https://doi.org/10.5281/zenodo.7380236) |
+| @fig-diversion_oa | Perrin, S. (2022, novembre 30). [Beware predatory publishers!](https://doi.org/10.5281/zenodo.7380236) |
+| @fig-MDPI2 | Sarka Erben Johansson's presentation on MDPI at the MUNI University 5/09/2023 |
+| @fig-mdpi | source: Anonymous on Twitter based [on Illustration by David Parkins](https://nature.com/articles/d41586-019-03759-y) |
+| @fig-special_issues | Ansede, M. (2023, octobre 31). [Public funds being swallowed up by scientific journals with dubious articles](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html.%20EL%20PAÍS%20English). |
+| @fig-white_black | Michaela Strinzel, Anna Severin, Katrin Milzow, Matthias Egger, 2019 [Blacklists and Whitelists To Tackle Predatory Publishing: a Cross-Sectional Comparison and Thematic Analysis](https://journals.asm.org/doi/10.1128/mbio.00411-19/) |
+| @fig-Beall_list | Author, A. (2020, septembre 28). [Jeffrey Beall à une conférence de 2016 organisée parZBW MediaTalk, cc-by 4.0 ](https://www.zbw-mediatalk.eu/2016/02/innovating-the-gutenberg-galaxis-ea-annual-conference-2016). |
+:::
+
+## contenu réutilisé
+
+L'activité "vous avez reçu le message d'un éditeur" est basée sur une activité mise au point par Olivier Poirier (UQTR), Valérie Levasseur (UQAC), Félix de la Durantaye (ENAP) et Valérie Bourdeau (UQ) ([source](https://view.genially.com/6568e905a90e77001494859c))
+
+<!-- The predatory letter activity is an english translation of the activity that was originaly designed by Olivier Poirier (UQTR), Valérie Levasseur (UQAC), Félix de la Durantaye (ENAP) and Valérie Bourdeau (UQ) ([source](https://view.genially.com/6568e905a90e77001494859c)). -->
+
+##  {.scrollabe}
+
+**logiciels utilisés pour cette présentation**
+
+Cette présentation a été réalisé au moyen de logiciels libres. Merci toutes celles et ceux qui développent, maintiennent et promeuvent ces logiciels au quotidien :heart: :heart:
+```{r}
+cat("Slides \n \n")
+quarto_version <- quarto::quarto_version()
+print(paste("Quarto version:", quarto_version))
+R.version.string
+x <- "\n quiz : H5P \n \n boards : Digiboard (La Digitale) \n \n repository : Framagit owned and managed by the Fnch pro-FOSS association Framasoft \n \n"
+cat(x)
+```
+<a href="tableau_digiboard.zip" download>Télécharger la trame pour le publiscore afin de l'importer dans un digiboard</a>
+
+## Références {background-color="#fef1da"}

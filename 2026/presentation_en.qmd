@@ -1,0 +1,592 @@
+---
+title: "Introduction to Data Management in Exact Sciences"
+subtitle: "Doctoral College of Brittany"
+date: last-modified
+author:
+    - name: "Damien Belvèze"
+      email: "damien.belveze@univ-rennes.fr"
+      affiliation:
+        - name: "University of Rennes"
+          city: Rennes
+    
+format: 
+    revealjs:
+      logo: images/logo_ardoise.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: images/lab.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+      slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+      embed-resources: true
+      show-notes: false
+      speaker: true
+      transition: convex
+      from: markdown+emoji
+      theme: [dark, file.css]
+      brand: _brand.yml
+      reveal_plugins: [menu]
+      reveal_options: 
+        menu: 
+          numbers: true
+          showNotes: true  # This enables notes in the PDF
+output:
+  pdf_document:
+    documentclass: article
+    keep_tex: true
+    includes:
+      in_header: preamble.tex
+bibliography: references.bib
+csl: apa.csl
+---
+
+# {background-color="#fef1da"}
+
+:::: {.columns}
+::: {.column width="70%" .incremental}
+
+- Advice on data management
+- Training (data, reproducibility, identifiers)
+- Support for data management plans
+- Curation of the Univ-Rennes collection on Recherche Data Gouv
+- help for making your research source code reproducible
+:::
+::: {.column width="30%"}
+![ARDoISE data hub](images/logo_ardoise.png)
+:::
+::::
+
+:::{.notes}
+Explain what a national data workshop is
+ARDOISE Data Workshop = University of Rennes 2 and University of Rennes
+:::
+
+# {background-color="#fef1da"}
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[1. Research Data, What Are We Talking About?]{.title}
+
+:::
+::: {.column width="50%"}
+![data life cycle](images/data_life_cycle.png){width="80%" #fig-data_life_cycle}
+:::
+::::
+:::{.notes}
+
+**Plan and design**
+
+Data Management Plan is the first step, before the collecting process has begun. 
+A data management helps to clarify to the team and makes it clear to reviewers who are responsible for the data collection porcess and the following steps : storage, sharing, archival and final destruction
+importance of file naming conventions (we will talk about it later)
+
+**Collect and create** 
+
+source code design to process data should be also made available from a dedicated repository (forge and Software Heritage Fondation) for code source archiving
+Importance of Documentation to make datasets understandable and reusable by othoer researchers
+
+**analyse and collaborate**
+
+safe storage, backup routines, access rules
+:::
+
+
+
+## a typical experiment : counting the fish in a river
+
+![](images/fish_counting.png){#fig-fish_counting}
+
+::: notes
+
+Let's think of a research team who tries to count the population of a given species in a river with the help of a underwater camera including an Artificial Intelligence powered recognition system.
+What information is important to share in order to keep the experiment reproducible after the publications are made ? 
+
+:::
+
+## Which Files Are Important to Make Available?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- raw_data_fish_counter.csv
+- intermediate_data.xls
+- filter1.py
+- first_draft_submission.pdf
+- fish_counter_calibration.md
+- kick_off_report.docx
+- filter2.py
+- notebook_experiment.ipynb
+
+:::
+::: {.column width="50%"}
+
+- final_data_fish_counter.xls
+- project_presentation_funders.pptx
+- final_data.csv
+- study_draft.qmd
+- january_meeting_partners.docx
+- fish_counter_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
+
+:::{.notes}
+
+Research data are data that have demonstrative value and on which publications rely. *Inscriptions* (Bruno Latour) produced in the life of the project or lab (meeting minutes, equipment manuals, project agendas) are not research data. Their preservation may be of interest in some cases, but not within the framework of a Data Management Plan (DMP).
+
+:::
+
+
+
+## Answers
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- [raw_data_fish_counter.csv]{.green}
+- [intermediate_data.xls]{.orange}
+- [filter1.py]{.green}
+- first_draft_submission.pdf
+- [fish_counter_calibration.md]{.green}
+- kick_off_report.docx
+- [filter2.py]{.green}
+- [notebook_experiment.ipynb]{.orange}
+
+:::
+::: {.column width="50%"}
+
+- final_data_fish_counter.xls
+- project_presentation_funders.pptx
+- [final_data.csv]{.green}
+- [study_draft.qmd]{.orange}
+- january_meeting_partners.docx
+- fish_counter_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
+
+## {background-color="#fef1da"}
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="40%" style='display: flex; justify-content: center; align-items: center;'}
+
+[2. Towards Cumulative, Reliable, and Reproducible Science?]{.title}
+
+:::
+::: {.column width="60%"}
+![](images/data_steps.png){ #fig-data_steps }
+:notebook: @berners-lee5starOpenData2015
+
+:::
+::::
+
+::: {.notes}
+Remind doctoral students of the nonsense of "freezing" their data in the PDF support of their thesis. When depositing the publication in HAL, the librarians of the University of Rennes try to retrieve from the authors the data in reusable format, when they are only found in the PDF of the article.
+
+Open Science relies on free formats (transparency, format accessible to all). A CSV document is better than an Excel file (see further)
+
+The next step is to use URIs (for example, Wikidata elements) in your data tables to link this data to other similar data (RDF)
+
+Finally, data should be linked together (LOD stands for Linked Open Data) with permanent identifiers : 
+
+Lowest temperature in Galway on the 24th of january may be expressed in that matter : 
+
+:::
+
+## From buried-in-a-PDF data... {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/PDF_buried.jpeg){#fig-sarcophage}
+:::
+:::{.column width="50%" .incremental .r-fit-text}
+
+- Even Optical AI tools are bad at extracting data from PDFs :notebook: @edwardsWhyExtractingData2025
+- Mistral failed at converting tables in PDF into markdown (figures truncated)
+- PDF should be one of the layer not the only one to be communicated
+- share native format and use reproducible tools such as R
+
+:::
+::::
+
+:::{.notes}
+
+"Imagine a doctor who uses AI to consult a PDF table of drug protocols and prescribes 500mg of a potentially toxic chemotherapy agent instead of 50mg."  
+
+:::
+
+## ...through Excel (but why Excel would be necessary anyway) {background-color="#fef1da"}
+
+- better to share flat files (not workbooks)
+- have you considered collecting your data in CSL rather than Excel ? 
+
+::: blockquote
+Unlike a script written in a programming language such as Python or R, which documents every step of the process and can be saved, versioned and rerun, an analysis that happens inside a spreadsheet using pointing and clicking is hard to follow and even harder to replicate.
+:::
+:notebook: @melchorSixQuestionsAsk2025
+
+
+::: notes
+
+why flat files are better than workbooks ? 
+in a classic excel spreadsheet, not enough place to properly name each spreadsheet(for a NFTS partition, you ca use up to 255 characters, which would not be reasonable anyway)
+Most of the time, formulas link several spreadsheets together. Some cells in a spreadsheet are sums or means calculated from figures in another spreadsheet. These formulas are often difficult to manage and are written in the specific language of the software, making it challenging to reproduce them in an analysis tool. In an open science framework, spreadsheets should contain only raw data. Value formats, and calculations should be handled in a separate file or script.
+
+
+
+:::
+
+## Excel (as every non FOSS tool) itself is prone to errors {background-color="#fef1da"}
+
+![CSV vs XLS](images/error_excel.jpg){#fig-excel}
+
+:notebook: @ziemannFivePillarsComputational2023a
+
+::: {.notes}
+Using Excel to analyze data (as done by 69% of researchers according to a 2016 study) is a bad idea. Instead, use transparent tools like R. A 2021 study shows that Excel regularly changes genes into dates, and the phenomenon has long been known. The reproducibility of studies depends on the use of free and transparent tools on what they do. References here: https://doi.org/10.1093/bib/bbad375
+
+besides, Excel cannot manage big dataframes with more than 24 000 records ; in that case, you have no other option than to use a CSV along with a computational tool such as R or Python. 
+
+:::
+
+## Preserve the raw data {background-color="#fef1da"}
+
+::: incremental
+- The raw and final data are important to preserve and later deposit in a repository
+- if your data management is well documented, you don't need to keep intermediary versions
+- keep the file that contains your raw data untouched (lock it down in a separate folder), use a duplicate as your working version
+:::
+
+## ...to Linked Open Data {background-color="#fef1da"}
+
+::::{.r-fit-text}
+::: blockquote
+"Lowest temperature in Galway on the fourteenth of January 2020"
+:::
+
+| concept | ontology | expression |
+|:--- |:--- |:--- |
+| lowest temperature | http://inamidst.com/sw/ont/meteo | Property :temperature |
+| temperature type | Wikipedia | https://fr.wikipedia.org/wiki/Degr%C3%A9_Celsius |
+| Galway | DBpedia | https://dbpedia.org/page/Galway |
+| 14th of January | Unix epoch | 1578984191 |
+::::
+
+:::{.notes}
+
+RDF is a common structure for data which presents date in triples : The subject denotes the resource; the predicate denotes traits or aspects of the resource, and expresses a relationship between the subject and the object
+
+Example of RDF statement : 14th of January (subject) is written in Unix epoch (predicate) 1578984191 (object). RDF style is a necessary steps to format one's data in LOD format.  
+
+Linking data with PID is very important to avoid ambiguities (outside Connemarra, there are a lot of places in the world that are called "Galway")
+
+:::
+
+## {background-iframe="https://video.univ-rennes1.fr/permalink/v125f6acecf2bu72r140/iframe/"}
+
+
+<!--
+in case the video is no longer available on the server, uncomment the lines below:
+
+{background-video="reproductibilite.mp4"}
+-->
+
+::: {.notes}
+
+Play the video synchronously with a class
+- Download the video from the media server and save it to the desktop
+- Open it without playing it
+- Share the screen from Zoom, choose the video player
+- Check both boxes at the bottom of the sharing window (audio for everyone + optimization)
+- Play the video and stop sharing when it's finished
+:::
+
+## Permanence of Data Access {background-color="#fef1da"}
+
+![](images/data_loss.webp){ #fig-data_loss }
+:notebook: @gibneyScientistsLosingData2013a
+
+:::{.notes}
+
+as time is passing by, data are more and more difficult to find if they are not properly preserved in an archive or at least a trusted data repository
+
+:::
+
+
+## {background-color="#fef1da"}
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[3. A Challenge for Open Science]{.title}
+:::
+::: {.column width="50%"}
+![](images/open_science_logo.jpg)
+
+:::
+::::
+
+## FAIR Principles {background-color="#fef1da"}
+
+![FAIR principles](images/fair_data.png){#fig-fair}
+
+## openness / closure {background-color="#fef1da"}
+
+:::{.incremental}
+
+- "as open as possible, as closed as necessary"
+
+- Default openness
+
+- Closure to justify:
+
+    - personal data
+    - intellectual property
+    - industrial secret
+    - defense
+:::
+
+::: {.notes}
+
+*personal data*
+
+The challenge remains to provide access to the dataset to the fullest extent possible. To do this, processes will be used to pseudonymize or anonymize the dataset. Pseudonymization involves removing directly identifying data, or replacing them with pseudonyms. This method carries risks of re-identification through cross-referencing the dataset with other datasets concerning the same population. Anonymization of data is a more subtle method involving, after removing directly identifying data, making the data less precise or adding noise to hinder potential re-identification attempts. It is a compromise between the interests of the individuals whose data are collected and the precision of this data. Tools exist to anonymize data: Arx, Amnesia. Anonymizing data incurs processing costs (human time, performance) that should be anticipated in advance in the budget request.
+
+*intellectual property*
+
+In France, the regime of data law means that data by default belongs to employers, not producers (researchers).
+But there may be limitations on sharing this data: - contaminating licenses of certain proprietary materials used to produce data (e.g., medical imaging) - international research projects: which national law will be applied to this data?
+
+:::
+
+## Making Your Data Findable {background-color="#fef1da"}
+
+Quality of a directory:
+
+::: {.incremental}
+
+- reputation
+- sustainability (institutional support)
+- open license
+- persistent identifier
+- richness of metadata
+- curation
+
+:::
+
+::: {.notes}
+
+Zenodo: no versioning of datasets, metadata less rich than on RDG, but sustainable repository (European Commission), managed by a transnational authority (see what happen to US publication repositories!)
+
+to search for repositories and compare their offerings: https://re3data.org
+
+Avoid proprietary repositories (Figshare)
+
+repository compliance criteria: https://www.ouvrirlascience.fr/entrepots-de-donnees-de-confiance-criteres-de-conformite/
+
+:::
+
+# {background-color="#fef1da" .r-fit-text}
+
+:::{.scrollable}
+
+| discipline | repository |
+|:-- |:-- |
+| images (SHS) |	MediHal |
+| code |	Software Heritage via HAL |
+| Bioinformatics |	GenOuest |
+| Humanities |	Nakala |
+| Mathematics |	no repository, see with the RNBM group |
+| environment, hydrology | Data Indores |
+| Earth Sciences | data terra |
+| Marine Sciences	data | ifremer, seanoe |
+| medical sciences |	INSERM repository on RDG |
+| Ecology, Environment, and Society	Data | InDoRES and Cat.InDoRES |
+
+:::
+
+## Recherche Data Gouv {background-color="#fef1da"}
+
+:::{.incremental}
+- richness of metadata
+- curation
+- national reference (supported by the Ministry)
+- persistent identifier
+- significant volume
+- free of charge
+- simplified generation of datapapers
+- [RDG sandbox](https://demo.recherche.data.gouv.fr/dataverse/tp)
+:::
+
+:::{.notes}
+On Zenodo, you are limited to 50 gigabytes per dataset
+on RDG, you are limited to 50 gigabytes per file, a dataset can contain several files (no global limitation seen), so yes, apparently the volume is less limited on RDG than on Zenodo.
+:::
+
+## Are Data Accessible? {background-color="#fef1da"}
+
+:::: {.columns}
+::: {.column width="50%"}
+In 93% of cases no response or negative response without justification :notebook: @gabelicaManyResearchersWere2022a
+
+:::
+::: {.column width="50%"}
+!["data available upon request"](images/data_available_upon_request.png){#fig-data_available}
+:::
+::::
+
+::: {.notes}
+
+The person listed in the DMP as the data contact person may be the corresponding author of the related publication or another person, but this person must be aware of their role if their mediation is necessary to obtain the data. It is better to provide a personal address here (e.g., gmail) than an institutional address, as one may frequently change institutions.
+:::
+
+## Are Data Interoperable?
+
+|registry |	identifier |
+|:-- |:-- |
+|[CAS number]{.red} |	12019-52-2 |
+|[PubChem CID number]{.green} |	6914517 |
+| [PubChem SID number]{.green} |	24879035 | 
+| [openSMILES identifier]{.green} |	CuCu.CuCu.TeTe |
+| [InChI identifier]{.green} | InChI=1/2Cu.Te |
+| [MDL number]{.red}	| MFCD00049727 |
+
+: Which identifiers to use for copper telluride?
+
+::: {.notes}
+In repositories, we would rather use **InCHI** than **CAS** because to access CAS identifiers, one needs to have access to the CAS Sci-Finder database.
+
+PubchemID is considered a better choice than InCHi, as it is more machine-readable
+
+:::
+
+
+
+## Documenting the Data {background-color="#fef1da"}
+
+:::{.incremental}
+- Documentation is the glue that binds a data science project together :notebook: @ziemannFivePillarsComputational2023a
+- Carefully describe the data and the context of its acquisition (production, collection)
+- literate programming
+- describe the data using ontologies
+:::
+
+## Documenting to Avoid Context Errors {background-color="#fef1da"}
+
+:::: {.columns}
+::: {.column width="50%"}
+Be precise in describing the context of data production
+:::
+::: {.column width="50%"}
+![the importance of data context](images/data_context.jpg){#fig-data_context width="80%"}
+:::
+::::
+
+::: {.notes}
+possibility to link the data management plan to a protocol deposited on another site (e.g., https://www.protocols.io) or [Prospero] (https://www.crd.york.ac.uk/prospero/) if the data are bibliographic and it is a literature review
+
+:::
+
+## Ontologies {background-color="#fef1da"}
+
+
+
+| discipline |	thesaurus |
+|:-- |:-- |
+| biodiversity |	INRAE |
+| environment |	GEMET |
+| Biology, Health | MeSH |
+| Mental Health |	ascodopsy |
+	
+
+[directory of thesauri](https://skosmos.loterre.fr/fr/)
+
+## Reusable Data? {background-color="#fef1da"}
+
+::: {style='font-size: 30px'}
+
+- Creative Commons (CC:by)
+- a license written by a law firm expert in intellectual property that provides for a variety of authorized or prohibited use cases
+- ODBL
+- Etalab
+- no license, do whatever you want with my dataset
+- CC0
+- CC:by for everyone except for fossil industries, arms sellers, and Google (:notebook: @thomasSeReapproprierProduction2023b) text available here.
+:::
+
+::: {.notes}
+
+Ask the students which data mentioned in this slide are appropriate for a dataset.
+
+Answers:
+
+Etalab and ODBL licenses are recommended in France to allow data reuse.
+Creative Commons licenses are more suitable for research outputs (publications, preprints, posters...)
+CC0 license is not allowed in France where copyright law requires at least citing the author of the dataset, which is not provided for in this license.
+
+When no license is indicated, one cannot safely reuse the dataset. When there is no license, by default, copyright law applies.
+
+In the context of Open Science, licenses are standardized and the uses they allow are easily stated and understandable. If instead of a license, there is a text that resembles the T&Cs of a web service, it means that the dataset is likely to be difficult to reuse (probably need to contact the producers)
+
+Open Science can be seen by some researchers as a loss of control over their publications and data, and restrictive licenses that hinder reuse for purposes deemed bad by researchers are still in the project stage. These licenses are not usual for data.
+
+:::
+
+## Data Management Plan {background-color="#fef1da"}
+
+:::: {.columns}
+::: {.column width="50%" .incremental}
+- The DMP summarizes all the choices made for data management
+- Submit an initial version of a DMP 6 months after signing a contract (ANR, European projects)
+- [DMP OPIDOR](https://dmp.opidor.fr/)  
+- [DMP Online](https://dmponline.dcc.ac.uk)  
+:::
+::: {.column width="50%"}
+
+:::
+::::
+# {background-color="#fef1da"}
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[4. Let's Get Practical]{.title}
+:::
+
+ <a href="tapir_fair_data.html" target="_blank"><img src="images/tapir_malayo.jpg" /></a>
+
+::::
+
+# Figures {.smaller}
+
+|figure | credits |
+|:-- |:-- |
+| @fig-fish_counting | yanmar https://www.yanmar.com/global/news/2021/04/20/90815.html |
+| @fig-data_life_cycle | [Harvard Biomedical Data managemnet](https://datamanagement.hms.harvard.edu/plan-design/biomedical-data-lifecycle)  |
+| @fig-data_steps | [Tim Berners-Lee](https://5stardata.info/en/)|
+| @fig-sarcophage | [Jon Ippolito](https://www.linkedin.com/posts/jonippolito_archives-collections-data-activity-7305940793683267584-_aHF) |
+| @fig-data_loss | [Gibney, Van Noorden](https://www.nature.com/articles/nature.2013.14416) |
+| @fig-fair | [Willkinson, Dumontier et al.](https://www.nature.com/articles/sdata201618) |
+| @fig-data_available | [Sergio Uribe](https://www.linkedin.com/pulse/dental-research-generates-data-available-sergio-uribe) |
+| @fig-excel | meme dont l'origine se perd dans la nuit des temps |
+| @fig-data_context | [Ralph Aboujaoude Diaz](https://www.linkedin.com/posts/ralph-aboujaoude-diaz-40838313_technology-artificialintelligence-computervision-activity-6912446088364875776-h-Iq?utm_source=linkedin_share&utm_medium=member_desktop_web)|
+
+
+##  {.scrollabe}
+
+**Software Used for the Presentation**
+
+The presentation was created with free and Open Source software. Thank you to all people who make them alive :heart: :heart:
+```{r}
+cat("Slides \n \n")
+quarto_version <- quarto::quarto_version()
+print(paste("Quarto version:", quarto_version))
+sessionInfo()
+x <- "\n quiz : H5P \n \n repository : Framagit owned and managed by the Fnch pro-FOSS association Framasoft \n \n"
+cat(x)
+```
+
+# References {background-color="#fef1da"}

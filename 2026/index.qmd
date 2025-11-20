@@ -1,0 +1,33 @@
+---
+title: "Introduction to Data Management in Exact Sciences"
+subtitle: "Ph.D doctoral session"
+date: last-modified 
+author: "Damien Belvèze"
+---
+
+::::{.columns}
+:::{.column width="45%"}
+<img src="images/tapir_malayo.jpg" alt="Tapir Malayo (from Wikipedia)" width="400px" />
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="45%"}
+<img src="images/logo_ardoise.png" alt="logo ARDoISE" width="200px" />
+:::
+::::
+
+# Description of the repository
+
+- [Link to the HTML slides online](https://datamanagement.dbelveze.fr/presentation_en.html#/section)
+
+
+- [PDF version ready to be downloaded from the forge with speaker notes](https://datamanagement.dbelveze.fr/presentation_en.pdf) 
+
+- <a href="https://datamanagement.dbelveze.fr/tapir_fair_data.html">open H5P activity in html format</a>
+
+- <a href="https://datamanagement.dbelveze.fr/tapir_fair_data.h5p" download> Download H5P activity in native format </a>
+
+
+

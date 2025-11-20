@@ -1,0 +1,11 @@
+pages:
+  stage: deploy #il s'agit de déployer un site à partir de fichiers
+  script:
+  - mkdir .public # crée le dossier caché .public
+  - cp -r * .public # copie tous les dossiers et fichiers du repository dans le fichier caché .public
+  - mv .public public # déplace tous les fichiers contenus dans le dossier caché public vers le dossier public
+  artifacts: # indique où se trouve le résultat du script
+    paths:
+    - public 
+  only:
+  - main # indique que seule la branche *main* est concernée par ce workflow

@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Introduction to data management in exact sciences
+message: College Doctoral de Bretagne
+type: software
+authors:
+  - given-names: Damien
+    family-names: Belvèze
+    email: damien.belveze@univ-rennes.fr
+    affiliation: 'University of Rennes '
+    orcid: 'https://orcid.org/0000-0001-9020-2148'
+identifiers:
+  - type: url
+    value: 'https://gitlab.huma-num.fr/dbelveze/nanterre_oaweek'
+    description: Gitlab repository
+abstract: >-
+  PhD doctoral session on data management in exact sciences
+
+
+
+keywords:
+  - Data management
+  - reproducible tools
+  - data repositories
+  - ontologies
+license: CC-BY-4.0
+commit: 9bca724ff8bf9fe0b0b83b7b675734cd4a06b0cc
+version: v1
+date-released: '2025-11-11'

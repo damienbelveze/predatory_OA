@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+
+.blockquote {
+    font-size: 32px;
+    margin-left: 100px;
+    font-style: italic;
+    color: #10ae9b;
+}
+
+.bottom {
+    position: absolute; 
+    bottom: 10px; 
+    width: 100%; 
+    text-align: center;
+}
+
+.justify {
+    text-align: justify !important
+}
+
+.green{
+    color: green;
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+
+

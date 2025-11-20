@@ -1,12 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: ""
 authors:
   - family-names: Belvèze
     given-names: Damien
     orcid: https://orcid.org/0000-0001-9020-2148
-title: "how to avoid the publication trap"
-version: 1.0
+title: "Predatory Open Access Publishers and the Grey Zone : PhD training session."
+version: 2.0
+license: CC-BY-4.0
 identifiers:
   - type: url
-    value: https://github.com/damienbelveze/predatory_OA
-date-released: 2024-04-12
+    value: https://framagit.org/damienbelveze/predatory_OA/
+date-released: 2025-11-20
